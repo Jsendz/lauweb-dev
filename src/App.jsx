@@ -9,7 +9,7 @@ function App() {
 <div className="bg-[url('/src/assets/blue.png')] bg-cover  w-full h-screen p-0">
         <div className="text-center h-[250px] flex flex-col justify-around items-center pt-16 ">
             <h1 className="text-7xl font-extrabold text-white drop-shadow-lg font-['Caveat'] shadow-black ">Hilltop Agency</h1>
-            <h2 className="text-4xl font-extrabold text-red-300 pt-16">Pagina web en construccion....</h2>
+            <h2 className="text-4xl font-extrabold text-amber-400 pt-16">Pagina web en construccion....</h2>
         </div>
         <section class="pt-16">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
