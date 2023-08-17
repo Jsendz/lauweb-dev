@@ -14,8 +14,8 @@ function App() {
         <section class="pt-16">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-md sm:text-center">
-          <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">Estamos aqui para ayudarte con lo que necesites</h2>
-          <p class="mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Ponte en contacto con nosotros y descubre nuestra amplia gama de servicios</p>
+          <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white sm:text-4xl dark:text-white">Estamos aqui para ayudarte con lo que necesites</h2>
+          <p class="mx-auto mb-8 max-w-2xl font-light text-slate-200 lg:text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Ponte en contacto con nosotros y descubre nuestra amplia gama de servicios</p>
           <form action="#">
               <div class="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div class="relative w-full">
