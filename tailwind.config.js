@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Caveat: ["Caveat", "curisve"],
+        Caveat: ["Caveat", "cursive"],
     },
   },
   plugins: [],
