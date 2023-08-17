@@ -16,7 +16,7 @@ function App() {
       <div class="mx-auto max-w-screen-md sm:text-center">
           <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white sm:text-4xl dark:text-white">Estamos aqui para ayudarte con lo que necesites</h2>
           <p class="mx-auto mb-8 max-w-2xl font-light text-slate-200 lg:text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Ponte en contacto con nosotros y descubre nuestra amplia gama de servicios</p>
-          <form action="https://formsubmit.co/laura@hilltop-agency.com" method="POST">
+          <form action="https://formsubmit.co/joshuasendzul@gmail.com" method="POST">
               <div class="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div class="relative w-full">
                       <label for="email" class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
