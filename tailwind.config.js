@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Caveat: ["Caveat", "cursive"],
+        Shadows: ['Shadows Into Light', 'cursive'],
     },
   },
   plugins: [],
