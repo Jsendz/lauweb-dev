@@ -1,18 +1,26 @@
 import Navbar from "./Navbar";
 import Business from "./Business";
-import Clients from "./Clients";
+
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
+
 import Hero from "./Hero";
 import Before from "./Before";
-import Immo from "./Immo"
+import Immo from "./Immo";
+import CTA from "./CTA";
+import Before2 from "./Before2"
+import Servicios from "./Servicios";
+
 
 export {
   Navbar,
   Business,
-  Clients,
+  CTA,
+  Before2,
+ 
   Footer,
-  Testimonials,
+  Servicios,
+
+ 
   Hero,
   Before,
   Immo,
