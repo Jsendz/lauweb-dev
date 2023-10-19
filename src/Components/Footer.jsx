@@ -1,64 +1,45 @@
-import styles from "../style";
-import { Logo2 } from "../assets";
-import { footerLinks, socialMedia, } from "../constants";
+import React from "react";
+import ItemsContainer from "./ItemsContainer";
+import SocialIcons from "./SocialIcons";
+import { Icons } from "./Menus";
 
-const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-[#111820] `}>
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
-        <img
-          src={Logo2}
-          alt="hoobank"
-          className="object-contain w-44 h-44"
-        />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px] `}>
-          A new way to make the payments easy, reliable and secure.
-        </p>
-      </div>
-
-      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-        {footerLinks.map((footerlink) => (
-          <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-[#4B94C0]">
-              {footerlink.title}
-            </h4>
-            <ul className="list-none mt-4">
-              {footerlink.links.map((link, index) => (
-                <li
-                  key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-secondary cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  {link.name}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
-
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Copyright Ⓒ 2022 HooBank. All Rights Reserved.
-      </p>
-
-      <div className="flex flex-row md:mt-0 mt-6">
-        {socialMedia.map((social, index) => (
-          <img
-            key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-            onClick={() => window.open(social.link)}
+const Footer = () => {
+  return (
+    <footer className="bg-gray-900 text-white">
+      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
+        <h1
+          className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
+         md:w-2/5"
+        >
+          <span className="text-teal-400">Free</span> until you're ready to
+          launch
+        </h1>
+        <div>
+          <input
+            type="text"
+            placeholder="Enter Your ph.no"
+            className="text-gray-800
+           sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
           />
-        ))}
+          <button
+            className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
+           rounded-md text-white md:w-auto w-full"
+          >
+            Request Code
+          </button>
+        </div>
       </div>
-    </div>
-  </section>
-);
+      <ItemsContainer />
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
+      text-center pt-2 text-gray-400 text-sm pb-8"
+      >
+        <span>© 2020 Appy. All rights reserved.</span>
+        <span>Terms · Privacy Policy</span>
+        <SocialIcons Icons={Icons} />
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
