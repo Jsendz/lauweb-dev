@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import {Navbar, Before2, Hero, Business, Immo,Footer, CTA, Servicios } from './Components/index.js';
+import {Navbar, Before2, Business, Immo,Footer, Servicios } from './Components/index.js';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     
     <Business />
     <Immo />
-    <CTA />
+    
     <Footer />
 
 
