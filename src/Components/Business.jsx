@@ -19,12 +19,12 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () =>  (
-  <section id="features" className={layout.section}>
+  <section id="features" className="w-full h-screen flex flex-row">
     <div className={layout.sectionInfo}>
       <h2 className={`${styles.heading2} text-slate-800`}>
        Residencia en Andorra
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-slate-800`}>
+      <p className={`${styles.paragraph} max-w-[470px] mx-auto mt-5 text-slate-800 text-center`}>
         En HILLTOP AGENCY, te acompañaremos en toda la tramitación de la residencia en Andorra que más se adapte a tus necesidades, facilitando en todo momento el proceso para que puedas disfrutarlo lo antes posible.
       </p>
 
