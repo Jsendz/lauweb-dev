@@ -33,7 +33,14 @@ import Empre from "./empresa.jpg";
 import Conser from "./conser.jpg";
 import Immo from "./casa.jpg";
 import Bgblue from "./background3.jpg";
+import consergeria from "./consergeria2.png";
+import residencia from "./docs2.png";
+import immobiliaria from "./immo2.png";
+import empresa from "./empresa2.png";
+import house from "./immocasa3.png";
 
+
+ 
 
 export {
   airbnb,
@@ -71,4 +78,9 @@ export {
   Empre,
   Conser,
   Bgblue,
+  consergeria,
+  immobiliaria,
+  empresa,
+  residencia,
+
 };
