@@ -2,6 +2,7 @@ import React from 'react'
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { house } from '../assets/index.js';
 
 const FeatureCard = ({ icon, title, content, index }) => (
     <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -22,7 +23,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   const Immo = () =>  (
     <section id="features" className="flex flex-col lg:flex-row h-full lg:h-screen w-full max-w-7xl lg:mx-auto justify-around items-center mb-40 lg:mb-0">
        <div className="w-full h-full mb-20 lg:mb-0 ">
-        <img src="src/assets/immocasa3.png" alt="" className="mx-auto" />
+        <img src={house} alt="" className="mx-auto" />
             
 
       </div>
