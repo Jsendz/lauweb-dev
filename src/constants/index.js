@@ -30,7 +30,7 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "RESIDENCIA POR REAGRUPAMIENTO",
+    title: "Residencia por Reagrupamiento",
     content:
       "Este permiso permite a personas que tengan permiso de residencia en Andorra solicitar el permiso de residencia para;",
   },

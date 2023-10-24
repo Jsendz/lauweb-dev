@@ -20,22 +20,22 @@ const FeatureCard = ({ icon, title, content, index }) => (
   );
   
   const Immo = () =>  (
-    <section id="features" className="flex flex-row h-screen w-full">
-       <div className="w-full h-full">
-        <img src="src/assets/immocasa2.png" alt="" />
+    <section id="features" className="flex flex-col lg:flex-row h-full lg:h-screen w-full max-w-7xl lg:mx-auto justify-around items-center mb-40 lg:mb-0">
+       <div className="w-full h-full mb-20 lg:mb-0 ">
+        <img src="src/assets/immocasa3.png" alt="" className="mx-auto" />
             
 
       </div>
-      <div className="w-full h-full">
-        <h2 className={`${styles.heading2} text-slate-800 text-left`}>
+      <div className="w-full h-full p-5 lg:pl-40 pt-10 flex flex-col items-left">
+        <h2 className= "text-6xl text-slate-800 font-bold text-left pb-5">
          Inmobiliaria.
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5 text-slate-800 text-left`}>
+        <p className="max-w-[470px] mt-5 text-slate-800 text-left text-xl mb-10">
         Uno de los pasos más importantes es encontrar vivienda en Andorra, por eso en HillTop Agency con 10 años de experiencia en el sector inmobiliario, queremos facilitar a nuestros clientes la búsqueda ocupándonos personalmente de todo el proceso.
 Nos adaptamos a las necesidades de cada cliente con el fin de asegurar la mejor calidad de servicio y experiencia
         </p>
   
-        <Button styles={`mt-10`} />
+        <button className="p-5 text-white font-bold text-xl bg-slate-800 rounded-xl lg:w-1/2 ">Contacta-nos</button>
       </div>
      
   

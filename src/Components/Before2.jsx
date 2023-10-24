@@ -6,7 +6,7 @@ import { Lau } from '../assets/index.js';
 
 const Before2 = () => {
   return (
-    <div className="w-full h-full 2xl:h-[75vh] rounded-xl" >
+    <div className="w-full h-full lg:h-[75vh] 2xl:h-[75vh] rounded-xl" >
         <div className="w-full mx-auto  lg:max-w-7xl lg:h-[80%]  h-full flex flex-col lg:flex-row rounded-xl pb-32 " >
             <div className="w-full flex flex-col justify-center text-center lg:text-left p-2 pt-10 pl-4 lg:pl-20" >
                 
