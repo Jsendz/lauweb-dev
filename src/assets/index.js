@@ -82,5 +82,6 @@ export {
   immobiliaria,
   empresa,
   residencia,
+  house,
 
 };
