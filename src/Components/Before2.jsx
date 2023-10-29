@@ -6,8 +6,8 @@ import { Lau } from '../assets/index.js';
 
 const Before2 = () => {
   return (
-    <div className="w-full h-full rounded-xl" >
-        <div className="w-full mx-auto  lg:max-w-7xl lg:h-[80%] h-full flex flex-col lg:flex-row rounded-xl pb-32 " >
+    <div className="w-full h-full rounded-xl pb-10 " >
+        <div className="w-full mx-auto  lg:max-w-7xl lg:h-[80%]  h-full flex flex-col lg:flex-row rounded-xl pb-32 " >
             <div className="w-full flex flex-col justify-center text-center lg:text-left p-2 pt-10 pl-4 lg:pl-20" >
                 
                 <h1 className="text-4xl  text-transparent bg-clip-text  bg-gradient-to-r from-cyan-500 to-blue-500 antialiased font-sans font-bold pb-5">Hilltop Agency</h1>

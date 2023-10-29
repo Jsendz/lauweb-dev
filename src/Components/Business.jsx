@@ -8,10 +8,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-bold text-slate-800 text-[18px] leading-[23.4px] mb-1">
+      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-slate-800 text-[16px] leading-[24px]">
+      <p className="font-poppins font-normal text-slate-800 text-xl leading-[24px text-left">
         {content}
       </p>
       <button className="">Mas Informacion!</button>
@@ -20,19 +20,19 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () =>  (
-  <section id="features" className="h-screen w-full flex flex-row">
-    <div className="w-full h-full flex flex-col justify-center pl-10">
+  <section id="features" className="w-full max-w-7xl lg:mx-auto h-full lg:h-screen flex flex-col lg:flex-row items-left my-40 2xl:my-0">
+    <div className="w-full h-full flex flex-col justify-center p-5 lg:pl-10 mb-20 lg:mb-0">
       <h2 className="text-slate-800 font-bold text-5xl text-left">
        Residencia en Andorra
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-slate-800`}>
+      <p className="text-left mt-5 text-slate-800 text-xl mb-10 ">
         En HILLTOP AGENCY, te acompañaremos en toda la tramitación de la residencia en Andorra que más se adapte a tus necesidades, facilitando en todo momento el proceso para que puedas disfrutarlo lo antes posible.
       </p>
 
-      <Button styles={`mt-10 w-1/3`} />
+      <button className="p-5 text-white font-bold text-xl bg-slate-800 rounded-xl lg:w-1/3 ">Contacta-nos</button>
     </div>
 
-    <div className="w-full flex flex-col justify-center items-center">
+    <div className="w-full flex flex-col justify-center">
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}

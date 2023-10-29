@@ -1,8 +1,12 @@
 import React from 'react'
 
+
+
 const Active = () => {
   return (
     <div>
+      
+      
       <h2>Residencia Activa</h2>
       <p>
       La residencia fiscal activa se otorga a las personas que trabajan en Andorra y existen dos
@@ -22,6 +26,8 @@ y efectiva obteniendo un contrato laboral indefinido por una empresa andorrana. 
 la residencia principal efectiva en Andorra y residir durante al menos 183 días al año.
         </p>
       </ul>
+      
+    
     </div>
   )
 }
