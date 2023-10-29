@@ -13,7 +13,7 @@ const Before2 = () => {
                 <h1 className="text-4xl  text-transparent bg-clip-text  bg-gradient-to-r from-cyan-500 to-blue-500 antialiased font-sans font-bold pb-5">Hilltop Agency</h1>
                 <h2 className="text-5xl bg-slate-700 bg-transparent pb-5 font-extrabold">Tu Agencia de Servicio Personalizado en Andorra</h2>
                 <p className="text-xl text-slate-600 pb-5 drop-shadow-xl">En Hilltop Agency te acompañamos de principio a fin en tu proceso de instalacion en Andorra.</p>
-                <button className="p-5 bg-cyan-400 rounded-xl text-slate-800 font-semibold text-xl lg:w-[30%] w-1/2 mx-auto">Contacta-nos</button>
+                <button className="p-5 bg-cyan-400 rounded-xl text-slate-800 font-semibold text-xl lg:w-[30%] w-1/2 mx-auto lg:mx-0">Contacta-nos</button>
                 
             </div>
             <div className="hidden lg:w-full lg:h-full lg:flex lg:justify-center lg:items-center  ">

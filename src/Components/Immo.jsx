@@ -20,9 +20,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
   );
   
   const Immo = () =>  (
-    <section id="features" className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <h2 className={`${styles.heading2} text-slate-800`}>
+    <section id="features" className="h-screen w-full flex- flex-row">
+      <div className="w-full"></div>
+      <div className="w-full pl-10">
+        <h2 className= "text-slate-800 font-bold text-left text-5xl ">
          Inmobiliaria.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 text-slate-800`}>
@@ -32,6 +33,7 @@ Nos adaptamos a las necesidades de cada cliente con el fin de asegurar la mejor 
   
         <Button styles={`mt-10`} />
       </div>
+      
   
       
     </section>
