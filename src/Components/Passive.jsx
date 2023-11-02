@@ -1,46 +1,41 @@
-import React from 'react'
+import React from 'react';
+import { feature3 } from "../constants";
+import styles, { layout } from "../style";
+
+const FeatureCard = ({ icon, title, content, index }) => (
+  <div className={`flex flex-row p-6 rounded-[20px] ${index !== feature3.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+    </div>
+    <div className="flex-1 flex flex-col ml-3 hover:text-slate-200">
+      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
+        {title}
+      </h4>
+      <p className="font-poppins font-normal text-slate-800  text-xl leading-[24px text-left">
+        {content}
+      </p>
+      
+    </div>
+  </div>
+);
 
 const Passive = () => {
   return (
-    <div className="" >
-      <div className="py-20">
+    <div className="w-full max-w-7xl mx-auto h-full mb-32 " >
+      <div className="py-20 w-full">
       <h2 className="text-6xl font-bold py-10 w-full">Residencia Passiva</h2>
       <p className="text-2xl text-left pl-5 pb-10">Los permisos de residencia pasiva permiten residir fisicamente en Andorra, pero no dan
 derecho a poder trabajar. Existes hasta tres tipos de residencia pasiva que se pueden solicitar
 en Andorra</p>
 <ul className="flex flex-col items-left justify-evenly list-decimal">
-  <li className="text-3xl font-semibold list-decimal w-[85%] ml-10 text-left">Residencia sin actividad lucrativa</li>
-  <p className="text-xl text-left w-[90%] mx-auto py-10">
-  Autoriza a residir en el país sin ejercer actividad laboral ni profesional.
-Este tipo de residencia se realiza por inversión en activos andorranos (inversión mínima de
-600.000€) más un depósito reembolsable de 47.500 euros a l’AFA (Agencia Financiera
-Andorrana) y 9.500 euros adicionales por persona a cargo. Se debe establecer la residencia
-principal y efectiva en el Principado de Andorra durante al menos 90 días al año.
-  </p>
-  <li className="text-3xl font-semibold w-[90%] ml-10 text-left">Residencia para profesionales con proyeccion internacional</li>
-  <p className="text-xl text-left w-[90%] mx-auto py-10">
-  Este tipo de residencia pasiva en Andorra está dirigida a profesionales con una actividad
-internacional sin apenas intervención en el mercado andorrano. La sede o base de la actividad
-debe estar situada en el Principado de Andorra y al menos el 85 % de los servicios prestados
-deben tener como destinatarios personas o entidades no residentes en el Principado.
-Se deberá entregar un depósito reembolsable en el AFA (Agencia Financiera Andorrana) de
-47.500 euros y 9.500 euros adicionales por casa persona a nombre del titular, y residir en
-Andorra durante al menos 90 días al año
-
-  </p>
-  <li className="text-3xl font-semibold w-[90%] ml-10 text-left">Residencia por razones de interes cientifico, cultural o deportivo</li>
-  <p className="text-xl text-left w-[90%] mx-auto py-10">
-  Este tipo de residencia esta dirigida a personas que tienen reputación y acreditación como
-deportista de elite, artista o investigador con prestigio internacional reconocido. Al menos
-un 85 % de los servicios prestados deben ser utilizados en el extranjero. Se deberá
-entregar un depósito reembolsable en el AFA (Agencia Financiera Andorrana) de 47.500
-euros y 9.500 euros adicionales por casa persona a nombre del titular, y residir en Andorra
-durante al menos 90 días al año.
-
-  </p>
+<div className="w-full flex flex-col justify-center">
+      {feature3.map((feature, index) => (
+        <FeatureCard key={feature.id} {...feature} index={index} />
+      ))}
+    </div>
 </ul>
 </div>
-<div className="px-2">
+<div className="px-2 w-1/2 mx-auto">
       <section className="text-gray-200 body-font relative rounded-xl bg-slate-800">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
@@ -52,7 +47,7 @@ durante al menos 90 días al año.
               gentrify.
             </p>
           </div>
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
+          <div className="lg:w-full md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">

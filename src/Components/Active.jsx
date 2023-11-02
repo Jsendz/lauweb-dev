@@ -1,38 +1,43 @@
 import React from 'react'
+import { feature2 } from "../constants";
+import styles, { layout } from "../style";
 
+const FeatureCard = ({ icon, title, content, index }) => (
+  <div className={`flex flex-row p-6 rounded-[20px] ${index !== feature2.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+    </div>
+    <div className="flex-1 flex flex-col ml-3 hover:text-slate-200">
+      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
+        {title}
+      </h4>
+      <p className="font-poppins font-normal text-slate-800  text-xl leading-[24px text-left">
+        {content}
+      </p>
+      
+    </div>
+  </div>
+);
 
 
 const Active = () => {
   return (
-    <div >
+    <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
-      <h2 className="text-4xl font-bold py-10 px-5">Residencia Activa</h2>
+      <h2 className="text-6xl font-bold py-10 px-5 text-left">Residencia Activa</h2>
       <p className="text-left text-xl p-5">
       La residencia fiscal activa se otorga a las personas que trabajan en Andorra y existen dos
 maneras para obtenerla:
       </p>
-      <div className="flex flex-col justify-evenly items-center ">
-        <div>
-        <h3 className="text-2xl font-bold text-left pl-5 py-10 ">Residencia activa por cuenta propia</h3>
-        <p  className="text-xl text-left pl-3">
-        Autoriza al solicitante a residir y a ejercer una actividad por cuenta propia de forma
-permanente mediante la constitución de una empresa. Se debe fijar la residencia principal
-efectiva en Andorra y residir durante al menos 183 días al año.
-        </p>
-        </div>
-        <div>
-        <h3 className="text-2xl font-bold text-left pl-5 py-10 ">Residencia activa por cuenta ajena</h3>
-        <p  className="text-xl text-left pl-3">
-        Autoriza al solicitante a residir y a trabajar en el Principado de Andorra de forma permanente
-y efectiva obteniendo un contrato laboral indefinido por una empresa andorrana. Se debe fijar
-la residencia principal efectiva en Andorra y residir durante al menos 183 días al año.
-        </p >
-        </div>
-      </div>
+      <div className="w-full flex flex-col justify-center">
+      {feature2.map((feature, index) => (
+        <FeatureCard key={feature.id} {...feature} index={index} />
+      ))}
+    </div>
 
       </div>
-      <div className="px-2">
+      <div className="px-2 w-[70%]">
       <section className="text-gray-200 body-font relative rounded-xl bg-slate-800">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
@@ -44,7 +49,7 @@ la residencia principal efectiva en Andorra y residir durante al menos 183 días
               gentrify.
             </p>
           </div>
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
+          <div className=" md:w-2/3 lg:w-full mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
