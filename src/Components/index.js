@@ -9,6 +9,9 @@ import Immo from "./Immo";
 import CTA from "./CTA";
 import Before2 from "./Before2"
 import Servicios from "./Servicios";
+import Consergeria from "./Consergeria";
+import Active from "./Active";
+import Passive from "./Passive";
 
 
 export {
@@ -24,4 +27,7 @@ export {
   Hero,
   Before,
   Immo,
+  Active,
+  Passive,
+  Consergeria,
 };

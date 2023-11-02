@@ -25,7 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import Livy from "./Livy.jpeg";
 import Logo2 from "./logohilltop2.png";
-import Lau from "./Lau2.png";
+import Lau from "./Lau3.png";
 import Forest from "./forest.jpg";
 import Natural from "./natural.png";
 import Res4 from "./residencia.jpg";
