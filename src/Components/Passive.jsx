@@ -23,7 +23,7 @@ const Passive = () => {
   return (
     <div className="w-full max-w-7xl mx-auto h-full mb-32 " >
       <div className="py-20 w-full">
-      <h2 className="text-6xl font-bold py-10 w-full">Residencia Passiva</h2>
+      <h2 className="text-6xl font-bold py-10 w-full bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-sky-500 via-orange-200 to-yellow-600">Residencia Passiva</h2>
       <p className="text-2xl text-left pl-5 pb-10">Los permisos de residencia pasiva permiten residir fisicamente en Andorra, pero no dan
 derecho a poder trabajar. Existes hasta tres tipos de residencia pasiva que se pueden solicitar
 en Andorra</p>
