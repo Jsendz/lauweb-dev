@@ -22,10 +22,11 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Active = () => {
   return (
+    <div className="bg-[#45C4B0]">
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
-      <h2 className="text-6xl font-bold py-10 px-5 text-left">Residencia Activa</h2>
+      <h2 className="text-6xl font-bold py-10 px-5 text-left rounded-lg">Residencia Activa</h2>
       <p className="text-left text-xl p-5">
       La residencia fiscal activa se otorga a las personas que trabajan en Andorra y existen dos
 maneras para obtenerla:
@@ -121,6 +122,7 @@ maneras para obtenerla:
     </div>
       
     
+    </div>
     </div>
   )
 }

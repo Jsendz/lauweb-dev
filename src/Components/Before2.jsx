@@ -21,7 +21,7 @@ const Before2 = () => {
             </div>
          
         </div>
-        <div className="w-full h-full lg:h-[20%] bg-[url('src/assets/serblue.jpg')] bg-cover bg-no-repeat">
+        <div className="w-full h-full lg:h-[20%] bg-slate-800 bg-no-repeat">
         <div className=" flex flex-col lg:flex-row justify-evenly lg:justify-around items-center p-3 h-full w-full max-w-[1440px] 2xl:mx-auto ">
     <div className="flex flex-row lg:justify-around w-full mb-5 lg:-mt-10  ">
     <div className=" shadow-2xl rounded-xl bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[30%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={empresa} alt="" className="mx-auto w-[60%] h-[100%]"/><h3 className="text-xl font-extrabold py-2">Empresa</h3>
