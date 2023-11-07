@@ -38,7 +38,7 @@ import residencia from "./docs2.png";
 import immobiliaria from "./immo2.png";
 import empresa from "./empresa2.png";
 import house from "./immocasa3.png";
-
+import Key2 from "./key2.png";
 
  
 
@@ -83,5 +83,6 @@ export {
   empresa,
   residencia,
   house,
+  Key2,
 
 };
