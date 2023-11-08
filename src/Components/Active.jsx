@@ -22,7 +22,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Active = () => {
   return (
-    <div className="bg-[#45C4B0]">
+    <div className="bg-[url('src/assets/sky.png')]">
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
