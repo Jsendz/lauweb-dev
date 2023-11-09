@@ -22,7 +22,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Active = () => {
   return (
-    <div className="bg-[url('src/assets/sky.png')]">
+    <div className="bg-[url('src/assets/sky.png')] bg-cover bg-no-repeat w-full h-full">
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
@@ -38,7 +38,7 @@ maneras para obtenerla:
     </div>
 
       </div>
-      <div className="px-2 w-[70%]">
+      <div className="px-2 lg:w-[70%]">
       <section className="text-gray-200 body-font relative rounded-xl bg-slate-800">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
