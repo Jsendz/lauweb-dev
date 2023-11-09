@@ -1,0 +1,42 @@
+{
+    "inicio":{
+      
+        "subtitulo": "Your Personalized Service Agency in Andorra",
+        "paragrafo":"At Hilltop Agency we accompany you from start to finish in your installation process in Andorra.",
+        "boton":"Contact Us",
+        "empresa": "Company",
+        "residencia": "Residence",
+        "immo":"Real Estate",
+        "conser":"Concierge"
+
+    },
+
+    "residencia": {
+        "titulo":"Residency in Anodrra",
+        "paragrafo": "At HILLTOP AGENCY, we will accompany you throughout the processing of the residency in Andorra that best suits your needs, facilitating the process at all times so that you can enjoy it as soon as possible.",
+        "boton":"Contact Us"
+    },
+
+    "activa": {
+        "titulo":"Active Residency",
+        "paragrafo":"Active tax residency is granted to people who work in Andorra and there are two ways to obtain it:",
+        "boton":"Contact Us",
+        "tituloform":"Contact Us",
+        "paraform":"How can we help you?",
+        "nombre":"Name",
+        "email":"Email",
+        "concepto":"Concept",
+        "mensaje":"Message"
+    },
+
+    "pasiva": {
+        "titulo": "Residence without lucrative activity",
+        "paragrafo":"Passive residence permits allow you to physically reside in Andorra, but do not give the right to work. There are up to three types of passive residence that can be requested in Andorra",
+        "unotitulo":"Residence without lucrative activity",
+        "unoparagrafo": "Authorizes you to reside in the country without carrying out work or professional activity. This type of residence is carried out by investment in Andorran assets (minimum investment of €600,000) plus a refundable deposit of €47,500 to the AFA (Andorra Financial Agency) and an additional €9,500 per dependent. Main and effective residence must be established in the Principality of Andorra for at least 90 days a year.",
+        "dostitulo": "Residence for professionals with international projection",
+        "dosparagrafo": "This type of passive residence in Andorra is aimed at professionals with international activity with little intervention in the Andorran market. The headquarters or base of the activity must be located in the Principality of Andorra and at least 85% of the services provided must be addressed to persons or entities not resident in the Principality. A refundable deposit must be delivered to the AFA (Andorran Financial Agency) of 47,500 euros and an additional 9,500 euros per person in the name of the owner, and reside in Andorra for at least 90 days a year.",
+        "trestitulo": "Residence for reasons of scientific, cultural or sporting interest",
+        "tresparagrafo": "This type of residency is aimed at people who have a recognized international reputation and accreditation. At least 85% of the services provided must be used abroad. A refundable deposit must be delivered to the AFA (Andorran Financial Agency) of 47,500 euros and an additional 9,500 euros per person in the name of the owner, and reside in Andorra for at least 90 days a year."
+    }
+}

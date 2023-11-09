@@ -6,9 +6,9 @@ const Consergeria = () => {
     <div id='Consergeria' className="w-full h-full
      bg-[url('src/assets/background3.jpg')] bg-no-repeat bg-cover py-20">
        <div className="flex flex-col lg:flex-row lg:justify-around mb-20 max-w-7xl mx-auto">
-        <div className="w-full">
-        <h2 className="text-5xl  font-extrabold text-left mb-10">Servicios y Conserjeria</h2>
-        <p className="text-3xl text-left">En Hilltop Agency, entendemos que tu tiempo y tranquilidad son de gran valor. Nos
+        <div className="w-full ">
+        <h2 className="text-5xl  font-extrabold text-left mb-10 text-slate-100">Servicios y Conserjeria</h2>
+        <p className="text-3xl text-left text-slate-200">En Hilltop Agency, entendemos que tu tiempo y tranquilidad son de gran valor. Nos
 dedicamos a simplificar tu vida ocupándonos de una variedad de gestiones y trámites,
 permitiéndo enfocarte en lo que realmente importa. A continuación, te presentamos
 nuestros principales servicios:</p></div>

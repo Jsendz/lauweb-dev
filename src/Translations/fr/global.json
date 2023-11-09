@@ -1,0 +1,42 @@
+{
+    "inicio":{
+       
+        "subtitulo":"Votre Agence de Service Personnalisé en Andorre",
+        "paragrafo":"Chez Hilltop Agency nous vous accompagnons du début à la fin dans votre processus d’installation en Andorre.",
+        "boton":"Contactez-nous",
+        "empresa":"Société",
+        "residencia": "Résidence",
+        "immo": "Immobilier",
+        "conser": "Conciergerie"
+
+    },
+
+    "residencia": {
+        "titulo": "Residence en Andorre",
+        "paragrafo":"Chez HILLTOP AGENCY, nous vous accompagnerons tout au long du processus de résidence en Andorre qui correspond le mieux à vos besoins, en facilitant le processus à tout moment afin que vous puissiez en profiter le plus rapidement possible.",
+        "boton":"Contactez-nous"
+    },
+
+    "activa": {
+        "titulo":"Residence Active",
+        "paragrafo":"La résidence fiscale active est accordée aux personnes qui travaillent en Andorre et il existe deux manières de l'obtenir :",
+        "boton":"Contactez-nous",
+        "tituloform":"Contactez-nous",
+        "paraform":"Comment pouvons-nous vous aider? ",
+        "nombre": "Nom",
+        "email": "Email",
+        "concepto": "Concept",
+        "mensaje":"Messaje"
+    },
+
+    "pasiva": {
+        "titulo": "Résidence Pasive",
+        "paragrafo": "Les permis de séjour passifs permettent de résider physiquement en Andorre, mais ne donnent pas le droit de travailler. Il existe jusqu’à trois types de résidence passive qui peuvent être demandées en Andorre",
+        "unotitulo":"Résidence sans activité lucrative",
+        "unoparagrafo":"Autorise à résider dans le pays sans exercer de travail ou d'activité professionnelle. Ce type de résidence se réalise en investissant dans le patrimoine andorran (investissement minimum de 600 000 €) plus un dépôt remboursable de 47 500 € à l'AFA (Agence Financière d'Andorre) et un supplément de 9 500 € par personne à charge. La résidence principale et effective doit être établie dans la Principauté d'Andorre pendant au moins 90 jours par an.",
+        "dostitulo":"Résidence pour professionnels à projection internationale",
+        "dosparagrafo": "Ce type de résidence passive en Andorre s'adresse aux professionnels ayant une activité internationale avec peu d'intervention sur le marché andorran. Le siège ou la base de l'activité doit être situé dans la Principauté d'Andorre et au moins 85% des services fournis doivent être adressés à des personnes ou entités non résidentes de la Principauté. Une caution remboursable doit être remise à l'AFA (Agence Financière Andorrane) de 47 500 euros et 9 500 euros supplémentaires par personne au nom du propriétaire, et résider en Andorre au moins 90 jours par an.",
+        "trestitulo":"Résidence pour raisons d’intérêt scientifique, culturel ou sportif",
+        "tresparagrafo": "Ce type de résidence s'adresse à des personnes bénéficiant d'une réputation et d'une accréditation internationales reconnues. Au moins 85 % des services fournis doivent être utilisés à l'étranger. Une caution remboursable doit être remise à l'AFA (Agence Financière Andorrane) de 47 500 euros et 9 500 euros supplémentaires par personne au nom du propriétaire, et résider en Andorre au moins 90 jours par an."
+    }
+}
