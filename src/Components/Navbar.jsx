@@ -2,14 +2,25 @@ import { useState } from "react";
 
 import { close, Logo2, menu } from "../assets";
 import { navLinks } from "../constants";
+import {useTranslation} from "react-i18next";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  
+    const [t, i18n] = useTranslation("global");
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
       <img src={Logo2} alt="hoobank" className="w-[100px] h-[90px]" />
+      <div className="flex border-2 border-[#DEEFE7] rounded-lg">
+            
+                <button className="px-4" onClick={() => i18n.changeLanguage("en")} >EN</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("es")} >ES</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("fr")} >FR</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("cat")} >CAT</button>
+                
+        </div>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 pr-10">
         {navLinks.map((nav, index) => (
