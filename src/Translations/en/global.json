@@ -38,5 +38,24 @@
         "dosparagrafo": "This type of passive residence in Andorra is aimed at professionals with international activity with little intervention in the Andorran market. The headquarters or base of the activity must be located in the Principality of Andorra and at least 85% of the services provided must be addressed to persons or entities not resident in the Principality. A refundable deposit must be delivered to the AFA (Andorran Financial Agency) of 47,500 euros and an additional 9,500 euros per person in the name of the owner, and reside in Andorra for at least 90 days a year.",
         "trestitulo": "Residence for reasons of scientific, cultural or sporting interest",
         "tresparagrafo": "This type of residency is aimed at people who have a recognized international reputation and accreditation. At least 85% of the services provided must be used abroad. A refundable deposit must be delivered to the AFA (Andorran Financial Agency) of 47,500 euros and an additional 9,500 euros per person in the name of the owner, and reside in Andorra for at least 90 days a year."
+    },
+
+    "conser": {
+        "titulo":"",
+        "paragrafo":"At Hilltop Agency, we understand that your time and peace of mind are of great value. We are dedicated to simplifying your life by handling a variety of tasks and procedures, allowing you to focus on what truly matters. Below, we present our main services:",
+        "unotitulo":"Administrative Procedures",
+        "unoparagrafo": "We take care of all the bureaucracy and administrative procedures you need to perform, both on a personal and business level. From obtaining licenses and permits to document management, we are here to make these processes smooth and efficient.",
+        "dostitulo": "Rental Property Management",
+        "dosparagrafo": "If you are a landlord with rental properties, we handle everything, from tenant searches, screenings, contract management, maintenance, assistance in community meetings, and rent receipts, ensuring that your investment is in good hands.",
+        "trestitulo": "Organization and Monitoring of Property Renovations",
+        "tresparagrafo": "If you are planning a renovation in your property, we accompany you throughout the process. From initial planning to overseeing and coordinating the work, we ensure that your project is carried out according to your expectations and within the established timelines.",
+        "fortitulo": "Intervention in Case of Accidents",
+        "forparagrafo": "In emergency situations, you can count on our immediate intervention. We are prepared to assist you in the event of accidents or any unexpected occurrence, ensuring that you receive the necessary assistance and procedures to resolve the situation quickly and effectively with the insurance company.",
+        "cinctitulo":"Home Management Assistance", 
+        "cincparagrafo": "We facilitate your daily life by taking care of tasks related to your home. From bill payments to service scheduling, we are here to ensure that everything is in order and runs smoothly, allowing you to fully enjoy your home.",
+        "sistitulo":"On-Site Presence in Case of Absence", 
+        "sisparagrafo": "When you cannot be present, we will be there for you. We offer on-site presence to supervise and secure your property, receive deliveries, coordinate services, and provide peace of mind while you are away, ensuring that everything is in perfect order upon your return."
+        
+
     }
 }

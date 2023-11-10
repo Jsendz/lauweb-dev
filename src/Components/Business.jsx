@@ -1,8 +1,11 @@
+import { t } from "i18next";
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import {useTranslation} from "react-i18next";
+
 
 const FeatureCard = ({ icon, title, content, index }) => (
+
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
@@ -19,17 +22,21 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
-  <section id="features" className="w-full max-w-7xl lg:mx-auto h-full lg:h-screen flex flex-col lg:flex-row items-left my-40 2xl:my-20">
+const Business = () =>  { 
+
+  const [t] = useTranslation("global");
+
+  return (
+  <div id="features" className="w-full max-w-7xl lg:mx-auto h-full lg:h-screen flex flex-col lg:flex-row items-left my-40 2xl:my-20">
     <div className="w-full h-full flex flex-col justify-center p-5 lg:pl-10 mb-20 lg:mb-0">
       <h2 className="text-slate-800 font-bold text-5xl text-left">
-       Residencia en Andorra
+       {t("residencia.titulo")}
       </h2>
       <p className="text-left mt-5 text-slate-800 text-xl mb-10 ">
-        En HILLTOP AGENCY, te acompañaremos en toda la tramitación de la residencia en Andorra que más se adapte a tus necesidades, facilitando en todo momento el proceso para que puedas disfrutarlo lo antes posible.
+        {t("residencia.paragrafo")}
       </p>
 
-      <button className="p-5 text-white font-bold text-xl bg-slate-800 rounded-xl lg:w-1/3 ">Contacta-nos</button>
+      <button className="p-5 text-white font-bold text-xl bg-slate-800 rounded-xl lg:w-1/3 ">{t("residencia.boton")}</button>
     </div>
 
     <div className="w-full flex flex-col justify-center">
@@ -37,7 +44,8 @@ const Business = () =>  (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
     </div>
-  </section>
-);
+  </div>
+  )
+};
 
 export default Business;

@@ -38,5 +38,26 @@
         "dosparagrafo":"Aquest tipus de residència passiva a Andorra està dirigida a professionals amb una activitat internacional gairebé sense intervenció al mercat andorrà. La seu o la base de l'activitat ha d'estar situada al Principat d'Andorra i almenys el 85 % dels serveis prestats han de tenir com a destinataris persones o entitats no residents al Principat. S'haurà de lliurar un dipòsit reemborsable a l'AFA (Agència Financera Andorrana) de 47.500 euros i 9.500 euros addicionals per casa persona a nom del titular, i residir a Andorra durant almenys 90 dies l'any",
         "trestitulo":"Residència per raons d'interès científic, cultural o esportiu",
         "tresparagrafo": "Aquest tipus de residència està adreçada a persones que tenen reputació i acreditació internacional reconeguda. Almenys un 85% dels serveis prestats han de ser utilitzats a l'estranger. S'haurà de lliurar un dipòsit reemborsable a l'AFA (Agència Financera Andorrana) de 47.500 euros i 9.500 euros addicionals per casa persona a nom del titular, i residir a Andorra durant almenys 90 dies l'any."
+    },
+
+    
+
+    "conser": {
+        "titulo":"",
+        "paragrafo":"A Hilltop Agency, entenem que el teu temps i tranquil·litat tenen un gran valor. Ens dediquem a simplificar la teva vida encarregant-nos d'una varietat de gestions i tràmits, permetent-te centrar-te en el que realment importa. A continuació, et presentem els nostres serveis principals:",
+        "unotitulo":"Tràmits Administratius",
+        "unoparagrafo": "Ens encarreguem de tota la burocràcia i tràmits administratius que necessitis realitzar, tant a nivell personal com empresarial. Des de l'obtenció de llicències i permisos fins a la gestió de documentació, estem aquí per fer que aquests processos siguin àgils i eficients.",
+        "dostitulo": "Gestió de propietats de lloguer",
+        "dosparagrafo": "Si ets propietari de propietats en lloguer, ens encarreguem de tot, des de la recerca d'inquilins, revisió, gestió de contractes, manteniment, assistència a reunions de comunitat i rebuts de lloguer assegurant que la teva inversió estigui en bones mans.",
+        "trestitulo": "Organització i Seguiment de Reformes en Immobles",
+        "tresparagrafo": "Si estàs planejant una reforma en el teu immoble, nosaltres t'acompanyem en tot el procés. Des de la planificació inicial fins a la supervisió i coordinació dels treballs, assegurem que el teu projecte es porti a terme segons les teves expectatives i en els terminis establerts.",
+        "fortitulo": "Intervenció en Cas d'Accident",
+        "forparagrafo": "En situacions d'emergència, pots comptar amb la nostra intervenció immediata. Estem preparats per assistir-te en casos d'accidents o qualsevol esdeveniment inesperat, assegurant que rebs l'ajuda adequada i les gestions necessàries per resoldre la situació de manera ràpida i eficaç amb la companyia d'assegurances.",
+        "cinctitulo":"Ajuda en la Gestió de la Llar", 
+        "cincparagrafo": "Facilitem la teva vida diària encarregant-nos de les gestions relacionades amb la teva llar. Des dels pagaments de factures fins a la programació de serveis, estem aquí per garantir que tot estigui en ordre i funcioni sense contratemps, permetent-te gaudir al màxim de la teva llar.",
+        "sistitulo":"Presència In Situ en Cas d'Absència", 
+        "sisparagrafo": "Quan no puguis estar present, nosaltres ho estarem per tu. Oferim presència in situ per supervisar i assegurar la teva propietat, rebre lliuraments, coordinar serveis i proporcionar tranquil·litat mentre estiguis absent, assegurant que tot estigui en perfecte ordre al teu retorn."
+        
+
     }
 }

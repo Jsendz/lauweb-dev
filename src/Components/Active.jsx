@@ -1,6 +1,7 @@
 import React from 'react'
 import { feature2 } from "../constants";
 import styles, { layout } from "../style";
+import {useTranslation} from "react-i18next";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== feature2.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -21,15 +22,17 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 
 const Active = () => {
+
+  const [t] = useTranslation("global");
+
   return (
     <div className="bg-[url('src/assets/sky.png')] bg-cover bg-no-repeat w-full h-full">
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
-      <h2 className="text-6xl font-bold py-10 px-5 text-left rounded-lg">Residencia Activa</h2>
-      <p className="text-left text-xl p-5">
-      La residencia fiscal activa se otorga a las personas que trabajan en Andorra y existen dos
-maneras para obtenerla:
+      <h2 className="text-6xl font-bold py-10 px-5 text-left rounded-lg">{t("activa.titulo")}</h2>
+      <p className="text-left text-xl p-5">{t("activa.paragrafo")}
+      
       </p>
       <div className="w-full flex flex-col justify-center">
       {feature2.map((feature, index) => (
@@ -42,20 +45,19 @@ maneras para obtenerla:
       <section className="text-gray-200 body-font relative rounded-xl bg-slate-800">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-100 underline underline-offset-8">
-              Contact Us
+            <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-100 underline underline-offset-8">{t("activa.tituloform")}
+              
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-400">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-400">{t("activa.paraform")}
+            
             </p>
           </div>
           <div className=" md:w-2/3 lg:w-full mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label for="name" className="leading-7 text-sm text-gray-100">
-                    Name
+                  <label for="name" className="leading-7 text-sm text-gray-100">{t("activa.nombre")}
+                    
                   </label>
                   <input
                     type="text"
@@ -70,8 +72,8 @@ maneras para obtenerla:
                   <label
                     for="email"
                     className="leading-7 text-sm text-gray-100"
-                  >
-                    Email
+                  >{t("activa.email")}
+                    
                   </label>
                   <input
                     type="email"
@@ -83,8 +85,8 @@ maneras para obtenerla:
               </div>
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label for="concept" className="leading-7 text-sm text-gray-100">
-                    Concepto
+                  <label for="concept" className="leading-7 text-sm text-gray-100">{t("activa.concepto")}
+                    
                   </label>
                   <input
                     type="text"
@@ -99,8 +101,8 @@ maneras para obtenerla:
                   <label
                     for="message"
                     className="leading-7 text-sm text-gray-100"
-                  >
-                    Message
+                  >{t("activa.mensaje")}
+                    
                   </label>
                   <textarea
                     id="message"
@@ -110,8 +112,8 @@ maneras para obtenerla:
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-cyan-500 border-0 py-2 px-8 focus:outline-none hover:bg-cyan-600 rounded text-lg">
-                  Button
+                <button className="flex mx-auto text-white bg-cyan-500 border-0 py-2 px-8 focus:outline-none hover:bg-cyan-600 rounded text-lg">{t("activa.boton")}
+                  
                 </button>
               </div>
               
