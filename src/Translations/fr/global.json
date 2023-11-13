@@ -21,6 +21,7 @@
         "titulo":"Residence Active",
         "paragrafo":"La résidence fiscale active est accordée aux personnes qui travaillent en Andorre et il existe deux manières de l'obtenir :",
         "boton":"Contactez-nous",
+        "unotitulo":"Residencia Passive",
         "tituloform":"Contactez-nous",
         "paraform":"Comment pouvons-nous vous aider? ",
         "nombre": "Nom",
@@ -30,7 +31,7 @@
     },
 
     "pasiva": {
-        "titulo": "Résidence Pasive",
+        "titulo": "Résidence Passive",
         "paragrafo": "Les permis de séjour passifs permettent de résider physiquement en Andorre, mais ne donnent pas le droit de travailler. Il existe jusqu’à trois types de résidence passive qui peuvent être demandées en Andorre",
         "unotitulo":"Résidence sans activité lucrative",
         "unoparagrafo":"Autorise à résider dans le pays sans exercer de travail ou d'activité professionnelle. Ce type de résidence se réalise en investissant dans le patrimoine andorran (investissement minimum de 600 000 €) plus un dépôt remboursable de 47 500 € à l'AFA (Agence Financière d'Andorre) et un supplément de 9 500 € par personne à charge. La résidence principale et effective doit être établie dans la Principauté d'Andorre pendant au moins 90 jours par an.",
@@ -41,7 +42,7 @@
     },
 
     "conser": {
-        "titulo":"",
+        "titulo":"Services Administratif et Conciergerie",
         "paragrafo":"À Hilltop Agency, nous comprenons que votre temps et votre tranquillité sont d'une grande valeur. Nous nous consacrons à simplifier votre vie en prenant en charge une variété de tâches et de formalités, vous permettant de vous concentrer sur ce qui compte réellement. Voici nos principaux services :",
         "unotitulo":"Formalités Administratives",
         "unoparagrafo": "Nous nous occupons de toute la bureaucratie et des formalités administratives que vous devez accomplir, que ce soit au niveau personnel ou professionnel. De l&#39;obtention de licences et de permis à la gestion de la documentation, nous sommes là pour rendre ces processus simples et efficaces.",

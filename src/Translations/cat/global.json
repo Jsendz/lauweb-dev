@@ -21,6 +21,7 @@
         "titulo":"Residencia Activa",
         "paragrafo":"La residència fiscal activa s'atorga a les persones que treballen a Andorra i hi ha dues maneres per obtenir-la:",
         "boton":"Contactan's",
+        "unotitulo":"Residencia Passiva",
         "tituloform":"Contactan's",
         "paraform": "Com el podem ajudar?",
         "nombre":"Nom",
@@ -43,7 +44,7 @@
     
 
     "conser": {
-        "titulo":"",
+        "titulo":"Serveis Administratius i Consergeria",
         "paragrafo":"A Hilltop Agency, entenem que el teu temps i tranquil·litat tenen un gran valor. Ens dediquem a simplificar la teva vida encarregant-nos d'una varietat de gestions i tràmits, permetent-te centrar-te en el que realment importa. A continuació, et presentem els nostres serveis principals:",
         "unotitulo":"Tràmits Administratius",
         "unoparagrafo": "Ens encarreguem de tota la burocràcia i tràmits administratius que necessitis realitzar, tant a nivell personal com empresarial. Des de l'obtenció de llicències i permisos fins a la gestió de documentació, estem aquí per fer que aquests processos siguin àgils i eficients.",

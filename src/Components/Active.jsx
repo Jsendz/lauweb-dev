@@ -2,6 +2,7 @@ import React from 'react'
 import { feature2 } from "../constants";
 import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
+import { t } from 'i18next';
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== feature2.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -10,7 +11,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
     <div className="flex-1 flex flex-col ml-3 hover:text-slate-200">
       <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
-        {title}
+        {t("activa.unotitulo")}
       </h4>
       <p className="font-poppins font-normal text-slate-800  text-xl leading-[24px text-left">
         {content}

@@ -12,11 +12,10 @@ import global_cat from './translations/cat/global.json';
 
 i18next.init({
   interpolation: {escapeValue: false},
-  lng:"en",
+  lng:"es",
   resources: {
     es: {
       global: global_es,
-
     },
     en: {
       global: global_en,
@@ -24,7 +23,7 @@ i18next.init({
     fr: {
       global: global_fr,
     },
-    fr: {
+    cat: {
       global: global_cat,
     }
   }

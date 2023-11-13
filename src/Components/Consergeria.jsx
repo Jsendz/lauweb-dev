@@ -34,9 +34,9 @@ const Consergeria = () => {
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.fortitulo")}</h3>
         <p className="text-left px-5 lg:px-0">{t("conser.forparagrafo")}</p>
       </div>
-      <div className="flex flex-col items-left justify-around lg:justify-start rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full ">{t("conser.")}
+      <div className="flex flex-col items-left justify-around lg:justify-start rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.cinctitulo")}</h3>
-        <p className="text-left px-5 lg:px-0">{t("conser.cinctitulo")}</p>
+        <p className="text-left px-5 lg:px-0">{t("conser.cincparagrafo")}</p>
       </div>
       <div className="flex flex-col items-left justify-around lg:justify-start rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.sistitulo")}</h3>

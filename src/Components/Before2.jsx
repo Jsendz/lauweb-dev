@@ -37,9 +37,9 @@ const Before2 = () => {
     
     <div className="flex flex-row lg:justify-around w-full  mb-5 lg:-mt-10 ">
     <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={immobiliaria} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.immo")}</h3>
-    <p>{t("inicio.immo")}Lorem ipsum dolor <br /> sit amet.</p></div></div>
+    <p>Lorem ipsum dolor <br /> sit amet.</p></div></div>
     <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20   2xl:-mt-28 hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={consergeria} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.conser")}</h3>
-    <p>{t("inicio.consergeria")}Lorem ipsum dolor <br /> sit amet.</p></div></div></div>
+    <p>Lorem ipsum dolor <br /> sit amet.</p></div></div></div>
     
 </div>
 </div>
