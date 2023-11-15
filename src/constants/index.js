@@ -1,5 +1,6 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
+
 export const navLinks = [
   {
     id: "Qui som?",
@@ -11,6 +12,7 @@ export const navLinks = [
   },
   
 ];
+
 
 export const features = [
   {
@@ -38,11 +40,10 @@ export const features = [
 
 export const feature2 = [
   {
-    id: "feature-1",
+    
     icon: shield,
-    title: "Residencia activa por cuenta propia",
-    content:
-    " Autoriza al solicitante a residir y a ejercer una actividad por cuenta propia de forma permanente mediante la constitución de una empresa. Se debe fijar la residencia principal efectiva en Andorra y residir durante al menos 183 días al año." ,
+   
+    
   },
   {
     id: "feature-2",

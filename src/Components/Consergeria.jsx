@@ -7,7 +7,7 @@ const Consergeria = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div id='Consergeria' className="w-full h-full
+    <div name="Consergeria" className="w-full h-full
      bg-[url('src/assets/background3.jpg')] bg-no-repeat bg-cover py-20">
        <div className="flex flex-col lg:flex-row lg:justify-around mb-20 max-w-7xl mx-auto">
         <div className="w-full ">

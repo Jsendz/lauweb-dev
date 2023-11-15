@@ -2,6 +2,7 @@ import React from 'react'
 import { Lau } from '../assets/index.js';
 import { immobiliaria, consergeria, residencia, empresa } from '../assets/index.js';
 import {useTranslation} from "react-i18next";
+import {Link} from 'react-scroll';
 
 
 
@@ -29,17 +30,19 @@ const Before2 = () => {
         <div className="w-full h-full lg:h-[20%] bg-slate-800 bg-no-repeat">
         <div className=" flex flex-col lg:flex-row justify-evenly lg:justify-around items-center p-3 h-full w-full max-w-[1440px] 2xl:mx-auto ">
     <div className="flex flex-row lg:justify-around w-full mb-5 lg:-mt-10  ">
-    <div className=" shadow-2xl rounded-xl bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={empresa} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.empresa")}</h3>
+    <div className=" shadow-2xl rounded-xl bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={empresa} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2"><Link  to="features" smooth={true} duration={500} className="hover:cursor-pointer" >{t("inicio.empresa")} </Link></h3>
     <p>Lorem ipsum dolor <br /> sit amet.</p></div>
     </div>
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={residencia} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.residencia")}</h3>
-    <p>Lorem ipsum dolor <br /> sit amet.</p></div></div></div>
+    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%] hover:cursor-pointer"><Link  to="residencia" smooth={true} duration={500}  ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={residencia} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.residencia")}</h3>
+    <p>Lorem ipsum dolor <br /> sit amet.</p></div></Link></div></div>
     
     <div className="flex flex-row lg:justify-around w-full  mb-5 lg:-mt-10 ">
     <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={immobiliaria} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.immo")}</h3>
     <p>Lorem ipsum dolor <br /> sit amet.</p></div></div>
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20   2xl:-mt-28 hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={consergeria} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.conser")}</h3>
-    <p>Lorem ipsum dolor <br /> sit amet.</p></div></div></div>
+    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20   2xl:-mt-28 hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%] hover:cursor-pointer"><Link  to="Consergeria" smooth={true} duration={500}  ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={consergeria} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.conser")}</h3>
+    <p>Lorem ipsum dolor <br /> sit amet.</p></div></Link>
+       </div>
+    </div>
     
 </div>
 </div>

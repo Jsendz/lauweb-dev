@@ -13,7 +13,13 @@
     "residencia":{
         "titulo": "Residencia en Andorra",
         "paragrafo":"En HILLTOP AGENCY, te acompañaremos en toda la tramitación de la residencia en Andorra que más se adapte a tus necesidades, facilitando en todo momento el proceso para que puedas disfrutarlo lo antes posible.",
-        "boton": "Contacta-nos"
+        "boton": "Contacta-nos",
+        "unotitulo":"Residencia Activa",
+        "unoparagrafo":"La residencia fiscal activa se otorga a las personas que trabajan en Andorra y existen dos maneras para obtenerla.",
+        "dostitulo":"Residencia Pasiva",
+        "dosparagrafo":"Los permisos de residencia pasiva permiten residir fisicamente en Andorra, pero no dan derecho a poder trabajar. Existes hasta tres tipos de residencia pasiva que se pueden solicitar en Andorra",
+        "trestitulo":"Residencia por Reagrupamiento",
+        "tresparagrafo":"Este permiso permite a personas que tengan permiso de residencia en Andorra solicitar el permiso de residencia para;"
     },
 
     "activa":{
@@ -21,7 +27,9 @@
         "paragrafo": "La residencia fiscal activa se otorga a las personas que trabajan en Andorra y existen dos maneras para obtenerla:",
         "tituloform":"Contacta-nos",
         "unotitulo":"Residencia Pasiva",
-    
+        "unoparagrafo":" Autoriza al solicitante a residir y a ejercer una actividad por cuenta propia de forma permanente mediante la constitución de una empresa. Se debe fijar la residencia principal efectiva en Andorra y residir durante al menos 183 días al año.",
+        "dostitulo":"",
+        "dosparagrafo":"",
         "paraform":"En que podemos ayudarle?",
         "nombre":"Nombre",
         "email":"Email",

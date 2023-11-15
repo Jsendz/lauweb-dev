@@ -1,25 +1,11 @@
 import React from 'react'
-import { feature2 } from "../constants";
+import { feature2, } from "../constants";
 import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
-import { t } from 'i18next';
+import {shield} from "../assets";
 
-const FeatureCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== feature2.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
-    </div>
-    <div className="flex-1 flex flex-col ml-3 hover:text-slate-200">
-      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
-        {t("activa.unotitulo")}
-      </h4>
-      <p className="font-poppins font-normal text-slate-800  text-xl leading-[24px text-left">
-        {content}
-      </p>
-      
-    </div>
-  </div>
-);
+
+
 
 
 const Active = () => {
@@ -27,7 +13,7 @@ const Active = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div className="bg-[url('src/assets/sky.png')] bg-cover bg-no-repeat w-full h-full">
+    <div name="activa" className="bg-[url('src/assets/sky.png')] bg-cover bg-no-repeat w-full h-full">
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
@@ -36,9 +22,34 @@ const Active = () => {
       
       </p>
       <div className="w-full flex flex-col justify-center">
-      {feature2.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
+      <div className={`flex flex-row p-6 rounded-[20px]`}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+      <img src={shield} alt="shield" className="w-[50%] h-[50%] object-contain" />
+    </div>
+    <div className="flex-1 flex flex-col ml-3 hover:text-slate-200">
+      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
+        {t("activa.unotitulo")}
+      </h4>
+      <p className="font-poppins font-normal text-slate-800  text-xl leading-[24px text-left">
+        {t("activa.unoparagrafo")}
+      </p>
+      
+    </div>
+  </div>
+  <div className={`flex flex-row p-6 rounded-[20px] `}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+      <img src={shield} alt="shield" className="w-[50%] h-[50%] object-contain" />
+    </div>
+    <div className="flex-1 flex flex-col ml-3 hover:text-slate-200">
+      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
+        {t("activa.unotitulo")}
+      </h4>
+      <p className="font-poppins font-normal text-slate-800  text-xl leading-[24px text-left">
+      {t("activa.unoparagrafo")}
+      </p>
+      
+    </div>
+  </div>
     </div>
 
       </div>

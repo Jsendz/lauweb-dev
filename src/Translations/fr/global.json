@@ -14,7 +14,13 @@
     "residencia": {
         "titulo": "Residence en Andorre",
         "paragrafo":"Chez HILLTOP AGENCY, nous vous accompagnerons tout au long du processus de résidence en Andorre qui correspond le mieux à vos besoins, en facilitant le processus à tout moment afin que vous puissiez en profiter le plus rapidement possible.",
-        "boton":"Contactez-nous"
+        "boton":"Contactez-nous",
+        "unotitulo":"Residence Active",
+        "unoparagrafo":"La résidence fiscale active est accordée aux personnes qui travaillent en Andorre et il existe deux manières de l'obtenir.",
+        "dostitulo":"Residence Passive",
+        "dosparagrafo":"Les permis de séjour passifs permettent de résider physiquement en Andorre, mais ne donnent pas le droit de travailler. Il existe jusqu’à trois types de résidence passive qui peuvent être demandées en Andorre",
+        "trestitulo": "Résidence par réunification",
+        "tresparagrafo": "Ce permis permet aux personnes titulaires d'un permis de séjour en Andorre de demander un permis de séjour pour :"
     },
 
     "activa": {
