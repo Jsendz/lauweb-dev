@@ -9,10 +9,10 @@ const Consergeria = () => {
   return (
     <div name="Consergeria" className="w-full h-full
      bg-[url('src/assets/background3.jpg')] bg-no-repeat bg-cover py-20">
-       <div className="flex flex-col lg:flex-row lg:justify-around mb-20 max-w-7xl mx-auto">
+       <div className="flex flex-col lg:flex-row lg:justify-around mb-20 max-w-6xl mx-auto rounded-lg bg-white shadow-lg shadow-gray-700">
         <div className="w-full ">
-        <h2 className="text-5xl  font-extrabold text-left mb-10 text-slate-100">{t("conser.titulo")}</h2>
-        <p className="text-3xl text-left text-slate-200">{t("conser.paragrafo")}</p></div>
+        <h2 className="text-5xl  font-extrabold text-left mb-10 text-slate-800 p-5 pr-0">{t("conser.titulo")}</h2>
+        <p className="text-3xl text-left text-slate-700 p-5">{t("conser.paragrafo")}</p></div>
          <div className="w-full">
           <img src={Key3} alt="Set of Keys"  className="mx-auto"/>
          </div>
