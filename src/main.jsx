@@ -8,6 +8,7 @@ import global_es from './translations/es/global.json';
 import global_en from './translations/en/global.json';
 import global_fr from './translations/fr/global.json';
 import global_cat from './translations/cat/global.json';
+import { ChakraProvider } from '@chakra-ui/react';
 
 
 i18next.init({
@@ -35,8 +36,10 @@ i18next.init({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <ChakraProvider>
     <I18nextProvider i18n={i18next}>
     <App />
     </I18nextProvider>
+    </ChakraProvider>
   </React.StrictMode>
 )

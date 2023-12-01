@@ -14,6 +14,8 @@ import Active from "./Active";
 import Passive from "./Passive";
 
 
+
+
 export {
   Navbar,
   Business,
@@ -22,6 +24,7 @@ export {
  
   Footer,
   Servicios,
+  
 
  
   Hero,

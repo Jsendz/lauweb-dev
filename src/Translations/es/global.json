@@ -19,7 +19,8 @@
         "dostitulo":"Residencia Pasiva",
         "dosparagrafo":"Los permisos de residencia pasiva permiten residir fisicamente en Andorra, pero no dan derecho a poder trabajar. Existes hasta tres tipos de residencia pasiva que se pueden solicitar en Andorra",
         "trestitulo":"Residencia por Reagrupamiento",
-        "tresparagrafo":"Este permiso permite a personas que tengan permiso de residencia en Andorra solicitar el permiso de residencia para;"
+        "tresparagrafo":"Este permiso permite a personas que tengan permiso de residencia en Andorra solicitar el permiso de residencia para;",
+        "dosboton":"Mas Informacion!"
     },
 
     "activa":{

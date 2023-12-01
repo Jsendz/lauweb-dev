@@ -3,6 +3,8 @@ import { Lau } from '../assets/index.js';
 import { immobiliaria, consergeria, residencia, empresa } from '../assets/index.js';
 import {useTranslation} from "react-i18next";
 import {Link} from 'react-scroll';
+import Modal2 from './Modal2';
+
 
 
 
@@ -19,7 +21,9 @@ const Before2 = () => {
                 <h1 className="text-4xl  text-transparent bg-clip-text  bg-gradient-to-r from-cyan-500 to-blue-500 antialiased font-sans font-bold pb-5">Hilltop Agency</h1>
                 <h2 className="text-5xl lg:text-4xl xl:text-5xl bg-slate-700 bg-transparent pb-5 font-extrabold">{t("inicio.subtitulo")}</h2>
                 <p className="text-xl text-slate-600 pb-5 drop-shadow-xl">{t("inicio.paragrafo")}</p>
-                <button className="p-5 bg-cyan-400 rounded-xl text-slate-800 font-semibold text-xl lg:hidden xl:block xl:w-[40%] w-1/2 mx-auto lg:mx-0">{t("inicio.boton")}</button>
+                <Modal2 />
+
+          
                 
             </div>
             <div className="hidden lg:w-full lg:h-full lg:flex lg:justify-center lg:items-center  ">
@@ -37,8 +41,9 @@ const Before2 = () => {
     <p>Lorem ipsum dolor <br /> sit amet.</p></div></Link></div></div>
     
     <div className="flex flex-row lg:justify-around w-full  mb-5 lg:-mt-10 ">
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={immobiliaria} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.immo")}</h3>
-    <p>Lorem ipsum dolor <br /> sit amet.</p></div></div>
+    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%]"><Link  to="immo" smooth={true} duration={500}  ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={immobiliaria} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.immo")}</h3>
+    <p>Lorem ipsum dolor <br /> sit amet.</p></div></Link>
+    </div>
     <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20   2xl:-mt-28 hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%] hover:cursor-pointer"><Link  to="Consergeria" smooth={true} duration={500}  ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={consergeria} alt="" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.conser")}</h3>
     <p>Lorem ipsum dolor <br /> sit amet.</p></div></Link>
        </div>
