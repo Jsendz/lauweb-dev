@@ -3,11 +3,7 @@ import { Lau } from '../assets/index.js';
 import { immobiliaria, consergeria, residencia, empresa } from '../assets/index.js';
 import {useTranslation} from "react-i18next";
 import {Link} from 'react-scroll';
-<<<<<<< HEAD
-import Modal2 from './Modal2';
-=======
 import Modal from './Modal.jsx';
->>>>>>> 9e361cfaed92627559895143776fd154964f69c6
 
 
 
@@ -25,13 +21,7 @@ const Before2 = () => {
                 <h1 className="text-4xl  text-transparent bg-clip-text  bg-gradient-to-r from-cyan-500 to-blue-500 antialiased font-sans font-bold pb-5">Hilltop Agency</h1>
                 <h2 className="text-5xl lg:text-4xl xl:text-5xl bg-slate-700 bg-transparent pb-5 font-extrabold">{t("inicio.subtitulo")}</h2>
                 <p className="text-xl text-slate-600 pb-5 drop-shadow-xl">{t("inicio.paragrafo")}</p>
-<<<<<<< HEAD
-                <Modal2 />
-
-          
-=======
                    <Modal />
->>>>>>> 9e361cfaed92627559895143776fd154964f69c6
                 
             </div>
             <div className="hidden lg:w-full lg:h-full lg:flex lg:justify-center lg:items-center  ">

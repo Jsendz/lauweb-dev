@@ -3,10 +3,12 @@ import {useTranslation} from "react-i18next";
 
 const Form = () => {
     const [t] = useTranslation("global");
+   
   return (
     <div>
         <div className="px-2 lg:w-[70%]">
     <section className="text-gray-200 body-font relative rounded-xl bg-slate-800">
+   
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-100 underline underline-offset-8">{t("activa.tituloform")}
