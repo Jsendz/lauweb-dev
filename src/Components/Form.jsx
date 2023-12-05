@@ -5,7 +5,10 @@ const Form = () => {
     const [t] = useTranslation("global");
    
   return (
-    <div>
+    
+    <div
+    className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+  >
         <div className="px-2 lg:w-[70%]">
     <section className="text-gray-200 body-font relative rounded-xl bg-slate-800">
    
@@ -89,6 +92,7 @@ const Form = () => {
     </section>
   </div> 
   </div>
+  
   )
 }
 
