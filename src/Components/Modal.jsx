@@ -7,7 +7,7 @@ export default function Modal() {
   return (
     <>
       <button
-        className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="bg-cyan-500 text-slate-800 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mt-1 mb-1 ease-linear transition-all duration-150 w-1/2 mx-auto"
         type="button"
         onClick={() => setShowModal(true)}
       >
@@ -20,7 +20,7 @@ export default function Modal() {
           >
             <div className="relative w-full my-6 mx-auto max-w-xl">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative w-full bg-white outline-none focus:outline-none">
+              <div className="border-0 rounded-xl shadow-lg relative w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                
                 {/*body*/}
@@ -104,7 +104,7 @@ export default function Modal() {
               </div>
             </div>
             <div className="p-2 w-full">
-              <button className="flex mx-auto text-white bg-cyan-500 border-0 py-2 px-8 focus:outline-none hover:bg-cyan-600 rounded text-lg">{t("activa.boton")}
+              <button className="flex mx-auto text-white bg-cyan-500 border-0 py-2 px-8 focus:outline-none hover:bg-cyan-600 rounded text-lg">{t("immo.boton")}
                 
               </button>
             </div>
