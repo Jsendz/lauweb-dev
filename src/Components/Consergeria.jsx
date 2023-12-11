@@ -20,32 +20,32 @@ const Consergeria = () => {
          </div>
       </div>
       <div className="w-full flex flex-col lg:flex-row lg:flex-wrap xl:max-w-6xl 2xl:max-w-7xl lg:pl-14 xl:m-auto ">
-      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full xl:h-[50vh] ">
+      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full lg:h-[70vh] xl:h-[450px] ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.unotitulo")}</h3>
         <p className="text-left px-5 lg:px-0">{t("conser.unoparagrafo")}</p>
         <Modal />
       </div>
-      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full xl:h-[50vh] ">
+      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full lg:h-[70vh] xl:h-[450px] ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.dostitulo")}</h3>
         <p className="text-left px-5 lg:px-0">{t("conser.dosparagrafo")}</p>
         <Modal />
       </div>
-      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full xl:h-[50vh] ">
+      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full lg:h-[70vh] xl:h-[450px] ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.trestitulo")}</h3>
         <p className="text-left px-5 lg:px-0">{t("conser.tresparagrafo")}</p>
         <Modal />
       </div>
-      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full xl:h-[50vh] ">
+      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full lg:h-[70vh] xl:h-[450px] ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.fortitulo")}</h3>
         <p className="text-left px-5 lg:px-0">{t("conser.forparagrafo")}</p>
         <Modal />
       </div>
-      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full xl:h-[50vh] ">
+      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full lg:h-[70vh] xl:h-[450px] ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.cinctitulo")}</h3>
         <p className="text-left px-5 lg:px-0">{t("conser.cincparagrafo")}</p>
         <Modal />
       </div>
-      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full xl:h-[50vh] ">
+      <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5 lg:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-full lg:h-[70vh] xl:h-[450px] ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.sistitulo")}</h3>
         <p className="text-left px-5 lg:px-0">{t("conser.sisparagrafo")}</p>
         <Modal />

@@ -1,6 +1,7 @@
 
 
 import './App.css';
+
 import {Navbar, Before2, Business, Immo,Footer, Active, Passive, Consergeria } from './Components/index.js';
 
 
@@ -25,6 +26,7 @@ function App() {
 
     
     <Footer />
+    
 
 
 </div>
