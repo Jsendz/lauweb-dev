@@ -21,7 +21,10 @@ const Before2 = () => {
                 <h1 className="text-4xl  text-transparent bg-clip-text  bg-gradient-to-r from-cyan-500 to-blue-500 antialiased font-sans font-bold pb-5">Hilltop Agency</h1>
                 <h2 className="text-5xl lg:text-4xl xl:text-5xl bg-slate-700 bg-transparent pb-5 font-extrabold">{t("inicio.subtitulo")}</h2>
                 <p className="text-xl text-slate-600 pb-5 drop-shadow-xl">{t("inicio.paragrafo")}</p>
+
+                  <div className="w-1/2">
                    <Modal />
+                   </div>
                 
             </div>
             <div className="hidden lg:w-full lg:h-full lg:flex lg:justify-center lg:items-center  ">

@@ -4,6 +4,8 @@ import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
 import {star, shield, send} from "../assets";
 import {Link} from 'react-scroll';
+import Modal from "./Modal";
+
 
 
 
@@ -22,7 +24,9 @@ const Business = () =>  {
         {t("residencia.paragrafo")}
       </p>
 
-      <button className="p-5 text-white font-bold text-xl bg-slate-800 rounded-xl lg:w-1/3 ">{t("residencia.boton")}</button>
+      <div className="w-1/2">
+                   <Modal />
+                   </div>
     </div>
 
     <div className="w-full flex flex-col justify-center">
