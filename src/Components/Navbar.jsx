@@ -10,15 +10,22 @@ const Navbar = () => {
   
     const [t, i18n] = useTranslation("global");
 
+    const handleLanguageChange = (e) => {
+      const newLang = e.target.value;
+      i18n.changeLanguage(newLang);
+    };
+
   return (
     <nav className="w-full flex justify-between items-center navbar">
       <img src={Logo2} alt="hoobank" className="w-[100px] h-[90px]" />
       <div className="flex border-2 border-[#DEEFE7] rounded-lg">
+      <select value={i18n.language} onChange={handleLanguageChange}>
             
-                <button className="px-4" onClick={() => i18n.changeLanguage("en")} >EN</button>
-                <button className="px-4" onClick={() => i18n.changeLanguage("es")} >ES</button>
-                <button className="px-4" onClick={() => i18n.changeLanguage("fr")} >FR</button>
-                <button className="px-4" onClick={() => i18n.changeLanguage("cat")} >CAT</button>
+      <option value="en">EN</option>
+      <option value="fr">FR</option>
+      <option value="es">ES</option>
+      <option value="cat">CA</option>
+                </select>
                 
         </div>
 

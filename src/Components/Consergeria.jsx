@@ -1,5 +1,4 @@
 import React from 'react'
-import {Key3} from '../assets/index.js';
 import {useTranslation} from "react-i18next";
 import Modal from './Modal.jsx';
 
@@ -9,12 +8,12 @@ const Consergeria = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div name="Consergeria" className="w-full h-full bg-[url('src/assets/background3.jpg')] bg-no-repeat bg-cover py-20">
-      <div className="max-w-7xl 2xl:max-w-[1500px] bg-slate-100 rounded-lg shadow-lg shadow-gray-700 mx-auto">
-       <div className="flex flex-col lg:flex-row lg:justify-around mb-20 mx-auto pt-20 ">
+    <div name="Consergeria" className="w-full h-full bg-slate-800 bg-no-repeat bg-cover py-20">
+      <div className="max-w-7xl 2xl:max-w-[1500px]  rounded-lg shadow-lg  mx-auto">
+       <div className="flex flex-col lg:flex-row lg:justify-around mb-20 mx-auto bg-slate-800 rounded-lg bg-cover w-[90%] ">
         <div className="w-full  ">
-        <h2 className="text-6xl  font-extrabold mb-10 text-slate-800 p-5 pr-0 2xl:pl-10 text-center">{t("conser.titulo")}</h2>
-        <p className="text-4xl  text-slate-700 p-5 2xl:pl-10 text-center">{t("conser.paragrafo")}</p></div>
+        <h2 className="text-6xl  font-extrabold mb-10 text-slate-100 p-5 pr-0 2xl:pl-10 text-center">{t("conser.titulo")}</h2>
+        <p className="text-3xl  text-slate-200 p-5 2xl:pl-10 text-center">{t("conser.paragrafo")}</p></div>
          
       </div>
       <div className="w-full flex flex-col lg:flex-row lg:flex-wrap xl:max-w-6xl 2xl:max-w-7xl lg:pl-14 xl:m-auto ">
