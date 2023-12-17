@@ -4,10 +4,10 @@ import App from './App.jsx'
 import './index.css'
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
-import global_es from './translations/es/global.json';
-import global_en from './translations/en/global.json';
-import global_fr from './translations/fr/global.json';
-import global_cat from './translations/cat/global.json';
+import global_es from './Translations/es/global.json';
+import global_en from './Translations/en/global.json';
+import global_fr from './Translations/fr/global.json';
+import global_cat from './Translations/cat/global.json';
 import { ChakraProvider } from '@chakra-ui/react';
 
 
