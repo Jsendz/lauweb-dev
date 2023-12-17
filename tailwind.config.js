@@ -5,9 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      'caveat': ['Caveat', 'cursive'],
-  },
+   
     extend: {
   },
   plugins: [],

@@ -16,8 +16,8 @@ const Passive = () => {
   return (
     <div name="pasiva" className="w-full max-w-7xl mx-auto h-full mb-32 " >
       <div className="py-20 w-full">
-      <h2 className="text-6xl font-bold py-10 w-full">{t("pasiva.titulo")}</h2>
-      <p className="text-2xl 2xl:text-3xl text-center pl-5 pb-10">{t("pasiva.paragrafo")}</p>
+      <h2 className="text-6xl font-bold text-left lg:text-center pl-3 lg:pl-0 py-10 w-full">{t("pasiva.titulo")}</h2>
+      <p className="text-2xl 2xl:text-3xl text-left lg:text-center pl-5 pb-10">{t("pasiva.paragrafo")}</p>
 
 <div className="flex flex-col lg:flex-row h-full w-full justify-around 2xl:max-w-7xl lg:max-w-6xl lg:mx-auto mt-10 ">
   

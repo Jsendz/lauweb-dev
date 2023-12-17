@@ -48,7 +48,7 @@ const Form = () => {
    
                
               
-                <div className=" w-[80%]  m-auto">
+                <div className=" w-[80%]  m-auto h-full">
     <section className="text-gray-200 body-font relative rounded-xl bg-slate-800">
    
       <div className="container px-5 py-10 mx-auto">

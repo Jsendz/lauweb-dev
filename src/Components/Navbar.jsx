@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex justify-between items-center navbar">
       <img src={Logo2} alt="hoobank" className="w-[100px] h-[90px]" />
-      <div className="flex border-2 border-[#DEEFE7] rounded-lg">
+      <div className="flex border-[5px] border-[#DEEFE7] rounded-lg ml-3">
       <select value={i18n.language} onChange={handleLanguageChange}>
             
       <option value="en">EN</option>

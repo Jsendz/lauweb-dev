@@ -41,7 +41,7 @@ const Business = () =>  {
       <p className="font-poppins font-normal text-slate-800 text-xl leading-[24px text-left">
         {t("residencia.unoparagrafo")}
       </p>
-      <button className="p-5 rounded-lg bg-slate-800 w-1/2 text-white font-bold mt-3"><Link  to="activa" smooth={true} duration={500}  >{t("residencia.dosboton")}</Link></button>
+      <button className="p-5 rounded-lg bg-slate-800 w-full lg:w-1/2 text-white font-bold mt-3"><Link  to="activa" smooth={true} duration={500}  >{t("residencia.dosboton")}</Link></button>
     </div>
   </div>
   <div className={`flex flex-row p-6 rounded-[20px]`}>
@@ -55,7 +55,7 @@ const Business = () =>  {
       <p className="font-poppins font-normal text-slate-800 text-xl leading-[24px text-left">
         {t("residencia.dosparagrafo")}
       </p>
-      <button className="p-5 rounded-lg bg-slate-800 w-1/2 text-white font-bold mt-3"><Link  to="pasiva" smooth={true} duration={500}  >{t("residencia.dosboton")}</Link></button>
+      <button className="p-5 rounded-lg bg-slate-800 w-full lg:w-1/2 text-white font-bold mt-3"><Link  to="pasiva" smooth={true} duration={500}  >{t("residencia.dosboton")}</Link></button>
     </div>
   </div>
   <div className={`flex flex-row p-6 rounded-[20px]`}>
@@ -69,7 +69,7 @@ const Business = () =>  {
       <p className="font-poppins font-normal text-slate-800 text-xl leading-[24px text-left">
         {t("residencia.tresparagrafo")}
       </p>
-      <button className="p-5 rounded-lg bg-slate-800 w-1/2 text-white font-bold mt-3"><Link  to="residencia" smooth={true} duration={500}  >{t("residencia.dosboton")}</Link></button>
+      <button className="p-5 rounded-lg bg-slate-800 w-full lg:w-1/2 text-white font-bold mt-3"><Link  to="residencia" smooth={true} duration={500}  >{t("residencia.dosboton")}</Link></button>
     </div>
   </div>
     </div>

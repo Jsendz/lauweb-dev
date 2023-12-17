@@ -22,15 +22,15 @@ export default function Modal() {
           <div
             className="items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative w-full my-6 mx-auto max-w-xl">
+            <div className="relative w-full my-6 mx-auto max-w-xl ">
               {/*content*/}
-              <div className=" h-[650px] border-0 rounded-xl shadow-lg relative w-full bg-white outline-none focus:outline-none">
+              <div className=" h-[650px] border-0 rounded-xl shadow-lg relative w-full bg-white outline-none focus:outline-none pt-10 text-xl">
                 {/*header*/}
       <button
                     className="p-1 ml-auto bg-white border-0 text-black  float-right text-3xl leading-none font-semibold outline-none focus:outline-none rounded-lg"
                     onClick={() => setShowModal(false)}
                   >
-                    <span className="bg-transparent text-black  h-6 w-6 text-2xl block outline-none focus:outline-none rounded-lg">
+                    <span className="bg-transparent text-black  h-10 w-6 text-2xl block outline-none focus:outline-none rounded-lg">
                       ×
                     </span>
                   </button>
