@@ -12,7 +12,7 @@ function App() {
   return (
        
 <div >
-    <div className="bg-[url('src/assets/forest.jpg')] bg-cover">
+    <div className="bg-forest bg-cover">
    <Navbar />
     <Before2 />
     </div>

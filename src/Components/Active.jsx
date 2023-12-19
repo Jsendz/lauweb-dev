@@ -15,7 +15,7 @@ const Active = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div name="activa" className="bg-[url('src/assets/sky.png')] bg-cover bg-no-repeat w-full h-full">
+    <div name="activa" className="bg-sky bg-cover bg-no-repeat w-full h-full">
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
