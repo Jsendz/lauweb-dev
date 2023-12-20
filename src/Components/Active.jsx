@@ -44,10 +44,10 @@ const Active = () => {
     </div>
     <div className="flex-1 flex flex-col ml-3 hover:text-slate-200">
       <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
-        {t("activa.unotitulo")}
+        {t("activa.dostitulo")}
       </h4>
       <p className="font-poppins font-normal text-slate-800  text-xl leading-[24px text-left">
-      {t("activa.unoparagrafo")}
+      {t("activa.dosparagrafo")}
       </p>
       
     </div>
