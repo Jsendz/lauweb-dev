@@ -2,8 +2,9 @@ import React from 'react'
 import { feature2, } from "../constants";
 import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
-import {shield} from "../../public/assets";
+import {shield, Sky} from "../../public/assets";
 import Form from './Form';
+
 
 
 
@@ -15,7 +16,7 @@ const Active = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div name="activa" className="bg-sky bg-cover bg-no-repeat w-full h-full">
+    <div name="activa" className="bg-no-repeat w-full h-full" style={{ backgroundImage: `url(${Sky})`,backgroundSize: 'cover' }}>
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
