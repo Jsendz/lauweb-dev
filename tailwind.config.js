@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'forest': "url('src/assets/forest.jpg')",
-      'serblue': "url('src/assets/serblue.jpg')",
-      'sky': "url('src/assets/sky.png')",
+      'forest': "url('/forest.jpg')",
+      'serblue': "url('/serblue.jpg')",
+      'sky': "url('/sky.png')",
     },
    
     extend: {

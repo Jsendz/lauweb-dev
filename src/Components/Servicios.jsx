@@ -1,6 +1,6 @@
 import React from 'react'
 import {CgFileDocument} from "react-icons/cg";
-import { immobiliaria, consergeria, residencia, empresa } from '../assets/index.js';
+import { immobiliaria, consergeria, residencia, empresa } from '../../public/assets/index.js';
 
 
 const Servicios = () => {

@@ -2,7 +2,7 @@ import { t } from "i18next";
 
 import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
-import {star, shield, send} from "../assets";
+import {star, shield, send} from "../../public/assets";
 import {Link} from 'react-scroll';
 import Modal from "./Modal";
 
