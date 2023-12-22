@@ -7,8 +7,8 @@ export default {
   theme: {
     backgroundImage: {
       'forest': "url('../../public/assets/forest.jpg')",
-      'serblue': "url('../../public/assets/serblue.jpg')",
-      'sky': "url('../../public/assets/sky.png')",
+      'serblue': "url('../../public/assets/serblue.webp')",
+      'sky': "url('../../public/assets/sky.webp')",
     },
    
     extend: {
