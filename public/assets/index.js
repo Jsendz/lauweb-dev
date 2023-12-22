@@ -27,6 +27,7 @@ import immobiliaria from "./immo2.png";
 import empresa from "./empresa2.png";
 import house from "./immocasa3.png";
 import Key3 from "./keys3.png";
+import Sky from "./sky.png";
 
  
 
@@ -60,5 +61,6 @@ export {
   residencia,
   house,
   Key3,
+  Sky,
 
 };
