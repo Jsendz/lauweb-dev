@@ -1,6 +1,6 @@
 
 
-import { Forest } from '../public/assets';
+import { Forest } from './assets';
 import './App.css';
 
 

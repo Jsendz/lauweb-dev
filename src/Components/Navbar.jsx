@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, Logo2, menu } from "../../public/assets";
+import { close, Logo2, menu } from "../assets";
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
 

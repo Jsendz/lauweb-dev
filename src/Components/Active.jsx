@@ -2,7 +2,7 @@ import React from 'react'
 import { feature2, } from "../constants";
 import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
-import {shield, Sky} from "../../public/assets";
+import {shield, Sky} from "../assets";
 import Form from './Form';
 
 

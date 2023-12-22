@@ -28,11 +28,12 @@ import empresa from "./empresa2.webp";
 import house from "./immocasa3.webp";
 import Key3 from "./keys3.png";
 import Sky from "./sky.webp";
+import Forest from "./forest.webp"
 
  
 
 export {
-  airbnb,
+  
   send,
   shield,
   star,
@@ -62,5 +63,6 @@ export {
   house,
   Key3,
   Sky,
+  Forest,
 
 };

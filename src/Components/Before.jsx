@@ -1,5 +1,5 @@
 import React from 'react'
-import { Lau, Res4, Conser, Empre, Immo } from "../../public/assets"
+import { Lau, Res4, Conser, Empre, Immo } from "../assets"
 
 
 const Before = () => {

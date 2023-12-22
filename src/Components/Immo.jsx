@@ -2,7 +2,7 @@ import React from 'react'
 import { features } from "../constants";
 import styles, { layout } from "../style";
 
-import { house } from '../../public/assets/index.js';
+import { house } from '../assets/index.js';
 import Modal from './Modal.jsx';
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Lau } from '../../public/assets/index.js';
-import { immobiliaria, consergeria, residencia, empresa } from '../../public/assets/index.js';
+import { Lau } from '../assets/index.js';
+import { immobiliaria, consergeria, residencia, empresa } from '../assets/index.js';
 import {useTranslation} from "react-i18next";
 import {Link} from 'react-scroll';
 import Modal from './Modal.jsx';
