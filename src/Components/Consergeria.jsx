@@ -16,7 +16,7 @@ const Consergeria = () => {
         <p className=" text-xl lg:text-3xl  text-slate-200 p-5 2xl:pl-10 text-left lg:text-center">{t("conser.paragrafo")}</p></div>
          
       </div>
-      <div className="w-full flex flex-col md:flex-row md:flex-wrap xl:max-w-6xl 2xl:max-w-7xl lg:pl-14 xl:m-auto ">
+      <div className="w-full flex flex-col md:flex-row md:flex-wrap xl:max-w-6xl 2xl:max-w-7xl lg:pl-1 xl:pl-2 xl:m-auto ">
       <div className="flex flex-col items-left justify-around lg:justify-evenly rounded-lg bg-white p-5  md:m-2 my-2 shadow-lg shadow-gray-400 lg:w-[30%] w-[90%] md:w-[45%] md:ml-6 mx-auto  h-[60vh] md:h-[450px]  ">
         <h3 className="text-xl font-extrabold text-left px-5">{t("conser.unotitulo")}</h3>
         <p className="text-left px-5 lg:px-0">{t("conser.unoparagrafo")}</p>
