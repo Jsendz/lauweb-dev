@@ -22,7 +22,7 @@ const Footer = () => {
           />
           <button
             className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
-           rounded-md text-white md:w-auto w-full"
+           rounded-md text-black md:w-auto w-full"
           >
             Enviar
           </button>
