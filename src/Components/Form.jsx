@@ -126,7 +126,7 @@ const Form = () => {
               </div>
             </div>
             <div className="p-2 w-full">
-              <button type="submit" className="flex mx-auto text-white bg-cyan-500 border-0 py-2 px-8 focus:outline-none hover:bg-cyan-600 rounded text-lg">{t("immo.boton")}
+              <button type="submit" className="flex mx-auto text-slate-800 bg-cyan-500 border-0 py-2 px-8 focus:outline-none hover:bg-cyan-600 rounded text-lg">{t("immo.boton")}
                 
               </button>
             </div>

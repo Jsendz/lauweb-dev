@@ -35,9 +35,9 @@ const Business = () =>  {
       <img src={star} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
+      <h3 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
     {t("residencia.unotitulo")}
-      </h4>
+      </h3>
       <p className="font-poppins font-normal text-slate-800 text-xl leading-[24px text-left">
         {t("residencia.unoparagrafo")}
       </p>
@@ -49,9 +49,9 @@ const Business = () =>  {
       <img src={shield} alt="shield" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
+      <h3 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
     {t("residencia.dostitulo")}
-      </h4>
+      </h3>
       <p className="font-poppins font-normal text-slate-800 text-xl leading-[24px text-left">
         {t("residencia.dosparagrafo")}
       </p>
@@ -63,9 +63,9 @@ const Business = () =>  {
       <img src={send} alt="send" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
+      <h3 className="font-poppins font-semibold text-slate-800 text-3xl leading-[23.4px] mb-5 text-left">
     {t("residencia.trestitulo")}
-      </h4>
+      </h3>
       <p className="font-poppins font-normal text-slate-800 text-xl leading-[24px text-left">
         {t("residencia.tresparagrafo")}
       </p>
