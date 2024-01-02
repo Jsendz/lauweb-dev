@@ -14,7 +14,7 @@ const Passive = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div name="pasiva" className="w-full max-w-7xl mx-auto h-full mb-32 " >
+    <div id="pasiva" className="w-full max-w-7xl mx-auto h-full mb-32 " >
       <div className="py-20 w-full">
       <h2 className="text-6xl font-bold text-left lg:text-center pl-3 lg:pl-0 py-10 w-full">{t("pasiva.titulo")}</h2>
       <p className="text-2xl 2xl:text-3xl text-left lg:text-center pl-5 pb-10">{t("pasiva.paragrafo")}</p>
