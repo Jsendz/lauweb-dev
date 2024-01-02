@@ -3,6 +3,7 @@ import { Lau } from '../assets/index.js';
 import { immobiliaria, consergeria, residencia, empresa } from '../assets/index.js';
 import {useTranslation} from "react-i18next";
 
+
 import Modal from './Modal.jsx';
 
 
@@ -29,6 +30,7 @@ const Before2 = () => {
             </div>
             <div className="hidden lg:w-full lg:h-full lg:flex lg:justify-center lg:items-center  ">
                 <img src={Lau} alt="Laura Lopez"  className="w-[55%]" />
+               
             </div>
          
         </div>
