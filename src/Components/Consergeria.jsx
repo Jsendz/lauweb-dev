@@ -8,7 +8,7 @@ const Consergeria = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div name="Consergeria" className="w-full h-full bg-slate-800 bg-no-repeat bg-cover py-20">
+    <div id="Consergeria" className="w-full h-full bg-slate-800 bg-no-repeat bg-cover py-20">
       <div className="max-w-7xl 2xl:max-w-[1500px]  rounded-lg shadow-lg  mx-auto">
        <div className="flex flex-col lg:flex-row lg:justify-around mb-20 mx-auto bg-slate-800 rounded-lg bg-cover w-[90%] ">
         <div className="w-full  ">

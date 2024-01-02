@@ -23,7 +23,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   );
   
   const Immo = () =>  (
-    <section id="features" name="immo" className="flex flex-col lg:flex-row h-full lg:h-screen w-full max-w-7xl lg:mx-auto justify-around items-center mb-40 lg:mb-0 lg:mt-40">
+    <section  id="inmobiliaria" className="flex flex-col lg:flex-row h-full lg:h-screen w-full max-w-7xl lg:mx-auto justify-around items-center mb-40 lg:mb-0 lg:mt-40">
        <div className="w-full h-full mb-20 lg:mb-0 ">
         <img src={house} alt="" className="mx-auto" />
             
