@@ -1,5 +1,4 @@
 import React from 'react'
-import { feature2, } from "../constants";
 import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
 import {shield, Sky} from "../assets";
