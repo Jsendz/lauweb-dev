@@ -12,8 +12,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import Livy from "./Livy.jpeg";
-import Logo2 from "./logohilltop2.png";
+import Logo2 from "./logohilltop2.webp";
 import Lau from "./Lau3.webp";
 import Natural from "./natural.png";
 import Res4 from "./residencia.jpg";
@@ -47,7 +46,6 @@ export {
   instagram,
   linkedin,
   twitter,
-  Livy,
   Logo2,
   Lau,
   Natural,
