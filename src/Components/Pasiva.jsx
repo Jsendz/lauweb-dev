@@ -9,7 +9,7 @@ import Modal from './Modal';
 
 
 
-const Passive = () => {
+const Pasiva = () => {
 
   const [t] = useTranslation("global");
 
@@ -55,4 +55,4 @@ const Passive = () => {
   )
 }
 
-export default Passive
+export default Pasiva

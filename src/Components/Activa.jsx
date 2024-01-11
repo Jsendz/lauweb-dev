@@ -10,7 +10,7 @@ import Form from './Form';
 
 
 
-const Active = () => {
+const Activa = () => {
 
   const [t] = useTranslation("global");
 
@@ -66,4 +66,4 @@ const Active = () => {
   )
 }
 
-export default Active
+export default Activa
