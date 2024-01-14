@@ -25,7 +25,7 @@ function App() {
     <Pasiva />
     <Inmobiliaria />
     <Consergeria />
-    <About />
+    
 
     
     <Footer />

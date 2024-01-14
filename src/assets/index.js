@@ -11,7 +11,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import Logo2 from "./logohilltop2.png";
+import Logo2 from "./logohilltop3.webp";
 import Lau from "./Lau3.webp";
 import Natural from "./natural.png";
 import consergeria from "./consergeria2.webp";
