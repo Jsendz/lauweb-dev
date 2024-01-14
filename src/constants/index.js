@@ -7,8 +7,8 @@ export const navLinks = [
     title: "Quienes Somos?",
   },
   {
-    id: "Feedback",
-    title: "Ratings",
+    id: "Sobre And",
+    title: "Sobre Andorra",
   },
   
 ];

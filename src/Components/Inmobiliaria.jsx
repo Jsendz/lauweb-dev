@@ -3,7 +3,7 @@ import React from 'react'
 import styles, { layout } from "../style";
 
 import { house } from '../assets/index.js';
-import Modal from './Modal.jsx';
+import Modal from './Modal';
 
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -22,7 +22,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
   );
   
-  const Immo = () =>  (
+  const Inmobiliaria = () =>  (
     <section  id="inmobiliaria" className="flex flex-col lg:flex-row h-full lg:h-screen w-full max-w-7xl lg:mx-auto justify-around items-center mb-40 lg:mb-0 lg:mt-40">
        <div className="w-full h-full mb-20 lg:mb-0 ">
         <img src={house} alt="" className="mx-auto" />
@@ -48,4 +48,4 @@ Nos adaptamos a las necesidades de cada cliente con el fin de asegurar la mejor 
     </section>
   );
 
-export default Immo
+export default Inmobiliaria

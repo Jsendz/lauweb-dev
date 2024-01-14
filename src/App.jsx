@@ -1,11 +1,10 @@
 
-
 import { Forest } from './assets';
 import './App.css';
 
 
-import {Navbar, Before2, Business, Inmobiliaria,Footer, Activa, Pasiva, Consergeria, About  } from './Components/index.js';
-Forest
+import {Navbar, Before2, Business, Inmobiliaria,Footer, Activa, Pasiva, Consergeria } from './Components/index.js';
+
 
 
 
