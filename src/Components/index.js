@@ -1,12 +1,14 @@
 import Navbar from "./Navbar";
 import Business from "./Business";
 import Footer from "./Footer";
-import Immo from "./Immo";
+import Inmobiliaria from "./Inmobiliaria";
 import Before2 from "./Before2"
 import Servicios from "./Servicios";
 import Consergeria from "./Consergeria";
-import Active from "./Active";
-import Passive from "./Passive";
+import Activa from "./Activa";
+import Pasiva from "./Pasiva";
+import About from "./About";
+
 
 
 
@@ -17,8 +19,9 @@ export {
   Before2,
   Footer,
   Servicios,
-  Immo,
-  Active,
-  Passive,
+  Inmobiliaria,
+  Activa,
+  Pasiva,
   Consergeria,
+  About,
 };

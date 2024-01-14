@@ -4,7 +4,7 @@ import { Forest } from './assets';
 import './App.css';
 
 
-import {Navbar, Before2, Business, Immo,Footer, Active, Passive, Consergeria } from './Components/index.js';
+import {Navbar, Before2, Business, Inmobiliaria,Footer, Activa, Pasiva, Consergeria, About  } from './Components/index.js';
 Forest
 
 
@@ -22,10 +22,11 @@ function App() {
     
     
     <Business />
-    <Active />
-    <Passive />
-    <Immo />
+    <Activa />
+    <Pasiva />
+    <Inmobiliaria />
     <Consergeria />
+    <About />
 
     
     <Footer />
