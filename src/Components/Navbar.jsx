@@ -3,6 +3,8 @@ import { useState } from "react";
 import { close, Logo2, menu } from "../assets";
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import {HiOutlineMail} from "react-icons/hi";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -19,15 +21,12 @@ const Navbar = () => {
     <nav className="w-full flex justify-between items-center navbar">
       <img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  />
       <div className="flex border-[5px] border-[#DEEFE7] rounded-lg ml-3">
-      <select alt="language dropdown menu" value={i18n.language} onChange={handleLanguageChange}>
-            
-      <option value="en">EN</option>
-      <option value="fr">FR</option>
-      <option value="es">ES</option>
-      <option value="cat">CA</option>
-                </select>
-                
+                <button className="px-4" onClick={() => i18n.changeLanguage("en")} >EN</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("es")} >ES</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("fr")} >FR</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("cat")} >CAT</button>
         </div>
+       
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 pr-10">
         {navLinks.map((nav, index) => (
@@ -71,6 +70,25 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+        <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+            <ul>
+                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-cyan-600">
+                    <a className="flex justify-between items-center w-full text-gray-300" href="/">
+                        Linkedin<FaLinkedin size={30} />
+                    </a>
+                </li>
+                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-cyan-600">
+                    <a className="flex justify-between items-center w-full text-gray-300" href="/">
+                        Github<FaGithub size={30} />
+                    </a>
+                </li>
+                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-cyan-600">
+                    <a className="flex justify-between items-center w-full text-gray-300" href="/">
+                        Email<HiOutlineMail size={30} />
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
   );
 };
