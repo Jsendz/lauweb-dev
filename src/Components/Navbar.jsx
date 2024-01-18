@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex justify-between items-center navbar">
       <img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  />
-      <div className="flex border-[5px]  ml-3 font-bold">
+      <div className="flex ml-3 font-bold">
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("en")} >EN</button>
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("es")} >ES</button>
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("fr")} >FR</button>
