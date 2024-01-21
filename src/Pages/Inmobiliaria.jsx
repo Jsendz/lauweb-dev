@@ -1,9 +1,9 @@
 import React from 'react'
 
-import styles, { layout } from "../style";
+import styles, { layout } from "../style.js";
 
 import { house } from '../assets/index.js';
-import Modal from './Modal';
+import Modal from '../Components/Modal.jsx';
 
 
 const FeatureCard = ({ icon, title, content, index }) => (

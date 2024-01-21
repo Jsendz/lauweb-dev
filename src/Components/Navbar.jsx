@@ -1,10 +1,13 @@
 import { useState } from "react";
 
-import { close, Logo2, menu } from "../assets";
+import { close, Forest, Logo2, menu } from "../assets";
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {HiOutlineMail} from "react-icons/hi";
+import { Link } from "react-router-dom";
+
+
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -18,8 +21,8 @@ const Navbar = () => {
     };
 
   return (
-    <nav className="w-full flex justify-between items-center navbar">
-      <img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  />
+    <nav className="w-full flex justify-between items-center navbar" style={{ backgroundImage: `url(${Forest})`,backgroundSize: 'cover' }}>
+      <Link to='/'><img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  /></Link>
       <div className="flex ml-3 font-bold">
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("en")} >EN</button>
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("es")} >ES</button>

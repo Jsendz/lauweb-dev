@@ -1,10 +1,10 @@
 import React from 'react'
 import {useTranslation} from "react-i18next";
-import Modal from './Modal';
+import Modal from '../Components/Modal';
 
 
 
-const Consergeria = () => {
+const Conserjeria = () => {
 
   const [t] = useTranslation("global");
 
@@ -55,4 +55,4 @@ const Consergeria = () => {
   )
 }
 
-export default Consergeria
+export default Conserjeria
