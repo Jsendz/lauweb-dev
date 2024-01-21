@@ -1,5 +1,5 @@
 import React from 'react';
-import { Activa, Pasiva, Residencias } from '../Components';
+import { Activa, Pasiva, Residencias } from '../Components/index';
 
 
 const Residencia = () => {
