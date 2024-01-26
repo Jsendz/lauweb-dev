@@ -21,7 +21,7 @@ import empresa from "./empresa2.webp";
 import house from "./immocasa3.webp";
 import Sky from "./sky.webp";
 import Forest from "./forest.webp";
-import Aboutpic from "./aboutpic.jpg";
+import Aboutpic from "./aboutpic2.svg";
 
 
  
