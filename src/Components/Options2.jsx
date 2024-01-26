@@ -9,29 +9,29 @@ const Options2 = () => {
 
   return (
     <div>
-        <div className='w-full mx-auto'>
-            <div className='flex flex-row w-full fixed bottom-3 max-w-xs'>
+        <div className='w-full '>
+            <div className='flex flex-row fixed bottom-3 max-w-xs mx-auto'>
                 <Link>
-                      <div className='mr-2'>
-                          <img src={empresa} alt="company"  className='w-1/2'/>
+                      <div className='mr-2 bg-white rounded-lg w-full flex flex-col justify-around items-center'>
+                          <img src={empresa} alt="company"  className='w-[50px]'/>
                           <h2>{t("inicio.empresa")}</h2>
                       </div>
                 </Link>
                 <Link>
-                      <div className='mr-2'>
-                          <img src={residencia} alt="Residence" className='w-1/2' />
+                      <div className='mr-2 bg-white rounded-lg w-full flex flex-col justify-around items-center'>
+                          <img src={residencia} alt="Residence" className='w-[50px]' />
                           <h2>{t("inicio.residencia")}</h2>
                       </div>
                 </Link>
                 <Link>
-                      <div className='mr-2'>
-                          <img src={immobiliaria} alt="Real Estate"  className='w-1/2'/>
+                      <div className='mr-2 bg-white rounded-lg w-full flex flex-col justify-around items-center'>
+                          <img src={immobiliaria} alt="Real Estate"  className='w-[50px]'/>
                           <h2>{t("inicio.immo")}</h2>
                       </div>
                 </Link>
                 <Link>
-                      <div className=''>
-                          <img src={consergeria} alt="Concierge"  className='w-1/2'/>
+                      <div className=' bg-white rounded-lg w-full flex flex-col justify-around items-center'>
+                          <img src={consergeria} alt="Concierge"  className='w-[50px]'/>
                           <h2>{t("inicio.conser")}</h2>
                       </div>
                 </Link>
