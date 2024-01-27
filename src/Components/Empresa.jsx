@@ -6,7 +6,7 @@ const Empresa = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div className='h-full lg:h-screen w-full flex flex-col justify-around items-center'>
+    <div className='h-full 2xl:h-screen w-full flex flex-col justify-around items-center'>
         <div className='max-w-7xl mx-auto flex flex-col' >
           <div className='my-20 '>
             <h3 className='text-6xl font-extrabold my-10'>{t("empresa.titulo")}</h3>

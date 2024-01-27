@@ -3,7 +3,7 @@ import {Aboutpic} from '../assets/index'
 
 const About = () => {
   return (
-    <div className="lg:h-screen flex flex-col lg:flex-row max-w-7xl mx-auto justify-around items-center">
+    <div className="h-full 2xl:h-screen flex flex-col lg:flex-row max-w-7xl mx-auto justify-around items-center my-10">
         <div className=" text-left pl-5 lg:pl-0">
            <h2 className="text-5xl font-extrabold mb-20 mt-20 lg:mt-0">Sobre <span className='text-cyan-500'> Hilltop Agency </span></h2>
            <p className="text-xl w-[90%] lg:w-3/4 mb-3">
