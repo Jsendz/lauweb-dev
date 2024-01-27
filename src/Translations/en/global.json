@@ -68,5 +68,30 @@
         "sisparagrafo": "When you cannot be present, we will be there for you. We offer on-site presence to supervise and secure your property, receive deliveries, coordinate services, and provide peace of mind while you are away, ensuring that everything is in perfect order upon your return."
         
 
+    },
+
+    "empresa": {
+        "titulo":"Corporate",
+        "paragrafo":"At Hilltop Agency, we specialize in providing comprehensive services that simplify and streamline the entire process for companies looking to make a foreign investment or conduct activities on their own behalf in Andorra.",
+        "unotitulo":"Commercial Name Reservation Request:",
+        "unoparagrafo": "We ensure the identity of your business from the start with an effective commercial name reservation.",
+        "dostitulo": "Authorization for Foreign Investment:",
+        "dosparagrafo": "We handle the application and obtainment of government authorization for foreign investments.",
+        "trestitulo": "Company Formation:",
+        "tresparagrafo": "We facilitate the public deed of incorporation before an Andorran notary, providing a solid legal foundation for your company.",
+        "fortitulo": "Registration in Relevant Registries:",
+        "forparagrafo": "We take care of registration in the Registry of Companies and the Registry of Commerce and/or Industry, ensuring legal compliance.",
+        "cinctitulo":"Assistance in Space Search:", 
+        "cincparagrafo": "We support you in finding suitable premises or residences for your commercial operations.",
+        "sistitulo":"Banking Assistance:", 
+        "sisparagrafo": "We simplify the banking process for a smooth and secure transition.",
+        "setitulo":"Request for Opening Trade or Industry:", 
+        "separagrafo": "We manage the request and processing before the corresponding Municipality, ensuring regulatory compliance.",
+        "otitulo":"Request for Fiscal Code NRT and Registration with CASS:", 
+        "oparagrafo": "We handle fiscal and social security procedures for your company.",
+        "nutitulo":"Andorran Companies:", 
+        "nuparagrafo": "We offer tailored administrative services for local businesses, adjusting to their specific needs."
+        
+
     }
 }

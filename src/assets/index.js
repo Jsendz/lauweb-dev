@@ -20,7 +20,9 @@ import immobiliaria from "./immo2.webp";
 import empresa from "./empresa2.webp";
 import house from "./immocasa3.webp";
 import Sky from "./sky.webp";
-import Forest from "./forest.webp"
+import Forest from "./forest.webp";
+import Aboutpic from "./aboutpic2.svg";
+
 
  
 
@@ -48,5 +50,6 @@ export {
   house,
   Sky,
   Forest,
+  Aboutpic,
 
 };
