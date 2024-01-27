@@ -3,8 +3,6 @@ import { Forest, Lau } from '../assets/index.js';
 
 import {useTranslation} from "react-i18next";
 import Modal from './Modal.jsx';
-import { Link } from 'react-router-dom';
-import { Residencias } from './index.js';
 
 
 
@@ -16,7 +14,6 @@ const Home = () => {
     const [t] = useTranslation("global");
 
   return (
-    <div>
     <div className="w-full h-screen" style={{ backgroundImage: `url(${Forest})`,backgroundSize: 'cover' }}  >
         <div className="w-full mx-auto  lg:max-w-7xl lg:h-[70%] h-full flex flex-col lg:flex-row lg:justify-start rounded-xl lg:mb-32 xl:mb-40 " >
             <div className="w-full flex flex-col justify-center text-left p-2 pt-10 pl-4 lg:pl-20" >
@@ -37,8 +34,6 @@ const Home = () => {
          
         </div>
       
-    </div>
-    <Residencias />
     </div>
     
   )
