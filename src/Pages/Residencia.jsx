@@ -5,9 +5,8 @@ import { Activa, Pasiva, Residencias } from '../Components/index';
 const Residencia = () => {
   return (
     <div>
-        <Residencias />
-        <Pasiva />
         <Activa />
+        <Pasiva />
     </div>
   )
 }
