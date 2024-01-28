@@ -6,7 +6,7 @@ import Pasiva from "./Pasiva";
 import Residencias from "./Residencias";
 import Options from "./Options2";
 import About from "./About";
-import Empresa from "./Empresa";
+
 
 
 
@@ -24,5 +24,4 @@ export {
   Residencias,
   Options,
   About,
-  Empresa,
 };

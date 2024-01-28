@@ -13,8 +13,8 @@ const Conserjeria = () => {
       <div className="max-w-7xl 2xl:max-w-[1500px]  rounded-lg shadow-lg  mx-auto">
        <div className="flex flex-col lg:flex-row lg:justify-around mb-20 mx-auto bg-slate-800 rounded-lg bg-cover w-[90%] ">
         <div className="w-full  ">
-        <h2 className="text-4xl lg:text-6xl  font-extrabold mb-10 text-slate-100 p-5 pr-0 2xl:pl-10 text-left lg:text-center">{t("conser.titulo")}</h2>
-        <p className=" text-xl lg:text-3xl  text-slate-200 p-5 2xl:pl-10 text-left lg:text-center">{t("conser.paragrafo")}</p></div>
+        <h2 className="text-4xl lg:text-5xl antialiased  font-extrabold mb-10 text-slate-100 p-5 pr-0 2xl:pl-10 text-left lg:text-center">{t("conser.titulo")}</h2>
+        <p className=" text-xl lg:text-2xl antialiased  text-slate-200 p-5 2xl:pl-10 text-left lg:text-center">{t("conser.paragrafo")}</p></div>
          
       </div>
       <div className="w-full flex flex-col md:flex-row md:flex-wrap xl:max-w-6xl 2xl:max-w-7xl lg:pl-1 xl:pl-2 xl:m-auto ">
