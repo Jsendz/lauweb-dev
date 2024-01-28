@@ -12,42 +12,42 @@ const Empresa = () => {
             <h3 className='text-4xl sm:text-5xl font-extrabold antialiased my-10'>{t("empresa.titulo")}</h3>
             <p className='text-xl text-slate-600 text-left pl-5 mt-20'>{t("empresa.paragrafo")}</p>
           </div>
-            <div className='w-full text-left flex flex-col lg:flex-row lg:flex-wrap justify-around mx-auto lg:mx-0'>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'>
+            <div className='w-[90%] text-left flex flex-col lg:flex-row lg:flex-wrap justify-around mx-auto lg:mx-0'>
+              <div className='w-full lg:w-[30%] p-5 rounded-l shadow-lg border-2 border-slate-400 mb-2'>
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.unotitulo")}</h4>
-                <p>{t("empresa.unoparagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.unoparagrafo")}</p>
               </div>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'> 
+              <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'> 
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.dostitulo")}</h4>
-                <p>{t("empresa.dosparagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.dosparagrafo")}</p>
               </div>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'> 
+              <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'> 
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.trestitulo")}</h4>
-                <p>{t("empresa.tresparagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.tresparagrafo")}</p>
               </div>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'>  
+              <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>  
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.fortitulo")}</h4>
-                <p>{t("empresa.forparagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.forparagrafo")}</p>
               </div>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'>   
+              <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>   
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.cinctitulo")}</h4>
-                <p>{t("empresa.cincparagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.cincparagrafo")}</p>
               </div>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'>  
+              <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>  
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.sistitulo")}</h4>
-                <p>{t("empresa.sisparagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.sisparagrafo")}</p>
               </div>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'>  
+              <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>  
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.setitulo")}</h4>
-                <p>{t("empresa.separagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.separagrafo")}</p>
               </div>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'>  
+              <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>  
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.otitulo")}</h4>
-                <p>{t("empresa.oparagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.oparagrafo")}</p>
               </div>
-              <div className='w-[90%] lg:w-[30%] p-5 rounded-lg bg-slate-800 text-white mb-2'> 
+              <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'> 
                 <h4 className='text-2xl font-bold mb-2'>{t("empresa.nutitulo")}</h4>
-                <p>{t("empresa.nuparagrafo")}</p>
+                <p className='text-md text-slate-600'>{t("empresa.nuparagrafo")}</p>
               </div>   
             </div>
         </div>
