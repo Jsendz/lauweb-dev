@@ -4,10 +4,10 @@ export const PRODUCTS = [
     { name: "Easy Content", link: "#" },
   ];
   export const RESOURCES = [
-    { name: "Residencia", link: "#" },
-    { name: "Empresa", link: "#" },
-    { name: "Consergeria", link: "#" },
-    { name: "Immobiliaria", link: "#" },
+    { name: "Residencia", link: "/Residencia" },
+    { name: "Empresa", link: "/Empresa" },
+    { name: "Conserjeria", link: "/Conserjeria" },
+    { name: "Immobiliaria", link: "Inmobiliaria" },
    
   ];
   export const COMPANY = [
