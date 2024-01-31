@@ -4,10 +4,10 @@ import {Aboutpic} from '../assets/index'
 const About = () => {
   return (
     <div className='w-full h-full my-36 max-w-7xl mx-auto'>
-           <h2 className='text-4xl xl:text-5xl antialiased font-extrabold mb-32 text-slate-700'> "Hilltop Agency es tu Agencia de confianza en Andorra <br /> Servicio Personalizado de principio a fin." </h2>
+           <h2 className='text-3xl xl:text-5xl antialiased font-extrabold mb-32 text-slate-700 text-left sm:text-center px-5 sm:px-0'> "Hilltop Agency es tu Agencia de confianza en Andorra <br /> Servicio Personalizado de principio a fin." </h2>
            <h3 className="text-3xl text-center antialiased  font-bold mb-20 mt-20 lg:mt-0 sm:text-left sm:pl-14">Sobre <span className='text-cyan-500'> Hilltop Agency </span></h3>
     <div className="h-full 2xl:h-screen  xl:max-w-7xl lg:w-[90%]  mx-auto">
-        <div className="w-full text-left mb-10 sm:mb-0">
+        <div className="w-full text-left mb-10 sm:mb-0 px-5">
            <p className="text-lg text-slate-600 mb-3">
              Comencé mi carrera en la industria de la construcción y administración, donde obtuve una
            comprensión sólida de los cimientos del mundo inmobiliario. 
@@ -29,8 +29,8 @@ const About = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-around items-center mt-20">
           <div className='w-full text-left h-full'>
-            <h3 className='text-2xl antialiased font-semibold mb-10'>Laura Lopez Tohà - <span className='text-cyan-500'>Fundadora</span></h3>
-            <p className="text-lg text-slate-600 mt-10">Comencé mi carrera en la industria de la construcción y administración, donde obtuve una
+            <h3 className='text-2xl antialiased font-semibold mb-10 text-center sm:text-left'>Laura Lopez Tohà - <span className='text-cyan-500'>Fundadora</span></h3>
+            <p className="text-lg text-slate-600 mt-10 px-5">Comencé mi carrera en la industria de la construcción y administración, donde obtuve una
            comprensión sólida de los cimientos del mundo inmobiliario. 
            Luego, me aventuré en el apasionante sector de la gestión hotelera, donde aprendí la importancia de la hospitalidad y la
            satisfacción del cliente. </p>
