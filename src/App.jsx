@@ -24,7 +24,7 @@ function App() {
    <Options/>
        <Routes>
           <Route index element={<Home />} />
-          <Route path="/Empresa" element={<Empresa />} />
+          <Route path="/:locale" element={<Empresa />} />
           <Route path="/Residencia" element={<Residencia />} />
           <Route path="/Inmobiliaria" element={<Inmobiliaria />} />
           <Route path="/Conserjeria" element={<Conserjeria />} /> 
