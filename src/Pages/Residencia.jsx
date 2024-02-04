@@ -5,6 +5,7 @@ import { Activa, Pasiva, Residencias } from '../Components/index';
 const Residencia = () => {
   return (
     <div>
+      <Residencias />
         <Activa />
         <Pasiva />
     </div>
