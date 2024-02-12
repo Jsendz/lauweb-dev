@@ -3,8 +3,6 @@ import { useState } from "react";
 import { close, Forest, Logo2, menu } from "../assets";
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import {HiOutlineMail} from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 

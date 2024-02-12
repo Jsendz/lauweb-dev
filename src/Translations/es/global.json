@@ -2,7 +2,7 @@
     "inicio":{
         "subtitulo":"Tu Agencia de Servicio Personalizado en Andorra",
         "paragrafo":"En Hilltop Agency te acompañamos de principio a fin en tu proceso de instalación en Andorra.",
-        "boton":"Contacta-nos",
+        "boton":"Contáctanos",
         "empresa":"Empresa",
         "residencia":"Residencia",
         "immo":"Inmobiliaria",
@@ -13,7 +13,7 @@
     "residencia":{
         "titulo": "Residencia en Andorra",
         "paragrafo":"En HILLTOP AGENCY, te acompañaremos en toda la tramitación de la residencia en Andorra que más se adapte a tus necesidades, facilitando en todo momento el proceso para que puedas disfrutarlo lo antes posible.",
-        "boton": "Contacta-nos",
+        "boton": "Contáctanos",
         "unotitulo":"Residencia Activa",
         "unoparagrafo":"La residencia fiscal activa se otorga a las personas que trabajan en Andorra y existen dos maneras para obtenerla.",
         "dostitulo":"Residencia Pasiva",
@@ -26,7 +26,7 @@
     "activa":{
         "titulo": "Residencia Activa",
         "paragrafo": "La residencia fiscal activa se otorga a las personas que trabajan en Andorra y existen dos maneras para obtenerla:",
-        "tituloform":"Contacta-nos",
+        "tituloform":"Contáctanos",
         "unotitulo":"Residencia activa por cuenta propia",
         "unoparagrafo":" Autoriza al solicitante a residir y a ejercer una actividad por cuenta propia de forma permanente mediante la constitución de una empresa. Se debe fijar la residencia principal efectiva en Andorra y residir durante al menos 183 días al año.",
         "dostitulo":"Residencia activa por cuenta ajena",
@@ -40,7 +40,7 @@
 
     "pasiva": {
         "titulo": "Residencia Pasiva",
-        "paragrafo": "Los permisos de residencia pasiva permiten residir fisicamente en Andorra, pero no dan derecho a poder trabajar. Existes hasta tres tipos de residencia pasiva que se pueden solicitar en Andorra",
+        "paragrafo": "Los permisos de residencia pasiva permiten residir fisicamente en Andorra, pero no dan derecho a poder trabajar. Existen hasta tres tipos de residencia pasiva que se pueden solicitar en Andorra",
         "unotitulo":"Residencia sin actividad lucrativa",
         "unoparagrafo": "Autoriza a residir en el país sin ejercer actividad laboral ni profesional. Este tipo de residencia se realiza por inversión en activos andorranos (inversión mínima de 600.000€) más un depósito reembolsable de 47.500 euros a l’AFA (Agencia Financiera Andorrana) y 9.500 euros adicionales por persona a cargo. Se debe establecer la residencia principal y efectiva en el Principado de Andorra durante al menos 90 días al año.",
         "dostitulo": "Residencia para profesionales con proyeccion internacional",
@@ -54,7 +54,7 @@
     "immo": {
         "titulo": "Inmobiliaria.",
         "paragrafo":"Uno de los pasos más importantes es encontrar vivienda en Andorra, por eso en HillTop Agency con 10 años de experiencia en el sector inmobiliario, queremos facilitar a nuestros clientes la búsqueda ocupándonos personalmente de todo el proceso. Nos adaptamos a las necesidades de cada cliente con el fin de asegurar la mejor calidad de servicio y experiencia",
-        "boton": "Contacta-nos"
+        "boton": "Contáctanos"
 
     },
 

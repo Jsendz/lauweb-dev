@@ -11,7 +11,7 @@ export default function Modal() {
   return (
     <>
       <button
-        className="w-full bg-slate-800 text-slate-200 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mt-1 mb-1 ease-linear transition-all duration-150 "
+        className="w-full bg-cyan-500 text-slate-800 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mt-1 mb-1 ease-linear transition-all duration-150 "
         type="button"
         onClick={() => setShowModal(true)}
       >

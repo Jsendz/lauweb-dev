@@ -40,6 +40,13 @@
         "mensaje":"Message"
     },
 
+    "immo": {
+        "titulo": "Real Estate.",
+        "paragrafo":"One of the most important steps is to find housing in Andorra, that is why at HillTop Agency, with 10 years of experience in the real estate sector, we want to make the search easier for our clients by personally taking care of the entire process. We adapt to the needs of each client in order to ensure the best quality of service and experience.",
+        "boton": "Contact us"
+
+    },
+
     "pasiva": {
         "titulo": "Passive Residency",
         "paragrafo":"Passive residence permits allow you to physically reside in Andorra, but do not give the right to work. There are up to three types of passive residence that can be requested in Andorra",

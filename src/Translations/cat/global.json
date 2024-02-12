@@ -11,6 +11,13 @@
 
     },
 
+    "immo": {
+        "titulo": "Immobiliaria.",
+        "paragrafo":"Un dels passos més importants és trobar habitatge a Andorra, per això a HillTop Agency amb 10 anys d'experiència al sector immobiliari, volem facilitar als nostres clients la cerca ocupant-nos personalment de tot el procés. Ens adaptem a les necessitats de cada client per assegurar la millor qualitat de servei i experiència.",
+        "boton": "Contacta'ns"
+
+    },
+
     "residencia": {
         "titulo":"Residencia a Andorra",
         "paragrafo":"A HILLTOP AGENCY, t'acompanyarem en tota la tramitació de la residència a Andorra que més s'adapti a les teves necessitats, facilitant en tot moment el procés perquè en puguis gaudir el més aviat possible.",

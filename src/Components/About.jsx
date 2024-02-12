@@ -4,7 +4,7 @@ import {Aboutpic} from '../assets/index'
 const About = () => {
   return (
     <div className='w-full h-full my-36 max-w-7xl mx-auto'>
-           <h2 className='text-3xl xl:text-5xl antialiased font-extrabold mb-32 text-slate-700 text-left sm:text-center px-5 sm:px-0'> "Hilltop Agency es tu Agencia de confianza en Andorra <br /> Servicio Personalizado de principio a fin." </h2>
+           <h2 className='text-3xl xl:text-4xl antialiased font-extrabold mb-32 text-slate-700 text-left sm:text-center px-5 sm:px-0'> "Hilltop Agency es tu Agencia de confianza en Andorra <br /> Servicio Personalizado de principio a fin." </h2>
            <h3 className="text-3xl text-center antialiased  font-bold mb-20 mt-20 lg:mt-0 sm:text-left sm:pl-14">Sobre <span className='text-cyan-500'> Hilltop Agency </span></h3>
     <div className="h-full 2xl:h-screen  xl:max-w-7xl lg:w-[90%]  mx-auto">
         <div className="w-full text-left mb-10 sm:mb-0 px-5">
