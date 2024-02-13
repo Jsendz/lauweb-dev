@@ -9,7 +9,7 @@ const Empresa = () => {
     <div className='h-full 2xl:h-screen w-full flex flex-col justify-around items-center mt-20'>
         <div className='max-w-5xl mx-auto flex flex-col' >
           <div className='my-20 '>
-            <h3 className='text-4xl sm:text-5xl font-extrabold antialiased my-10'>{t("empresa.titulo")}</h3>
+            <h3 className='text-4xl sm:text-5xl font-extrabold antialiased my-10 text-slate-700'>{t("empresa.titulo")}</h3>
             <p className='text-xl text-slate-600 text-left pl-5 mt-20'>{t("empresa.paragrafo")}</p>
           </div>
             <div className='w-[90%] lg:w-full text-left flex flex-col lg:flex-row lg:flex-wrap justify-around mx-auto lg:mx-0'>
