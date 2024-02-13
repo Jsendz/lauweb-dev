@@ -21,7 +21,7 @@ const Navbar = () => {
   
 
   return (
-    <nav className="w-full flex justify-between items-center navbar">
+    <nav className="w-full flex justify-between items-center navbar bg-forest" >
       <Link to='/'><img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  /></Link>
       <div className="flex sm:ml-3 font-bold">
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("en")} >EN</button>
