@@ -28,7 +28,7 @@ const Home = () => {
                 
             </div>
             <div className="hidden lg:w-full lg:h-full lg:flex lg:justify-center lg:items-start xl:items-center  ">
-                <img src={Lau} alt="Laura Lopez"  className="w-[55%]" />
+                <img src={Lau} alt="Laura Lopez"  className="w-[55%]" loading='lazy' />
                
             </div>
          
