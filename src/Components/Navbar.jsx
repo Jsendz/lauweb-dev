@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, Forest, Logo2, menu } from "../assets";
+import { close, Forest, Logo2, menu } from "../assets/index";
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
 import { Link } from "react-router-dom";
@@ -18,8 +18,10 @@ const Navbar = () => {
       i18n.changeLanguage(newLang);
     };
 
+  
+
   return (
-    <nav className="w-full flex justify-between items-center navbar" style={{ backgroundImage: `url(${Forest})`,backgroundSize: 'cover' }}>
+    <nav className="w-full flex justify-between items-center navbar">
       <Link to='/'><img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  /></Link>
       <div className="flex sm:ml-3 font-bold">
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("en")} >EN</button>
