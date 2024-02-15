@@ -29,7 +29,7 @@ const Options2 = () => {
       <div>
         <div className='w-full fixed bottom-0 z-10  '>
             <div className='backdrop-blur-lg rounded-xl w-[100%] max-w-3xl md:mx-auto '>
-                <div className='flex flex-row flex-wrap justify-evenly py-5'>
+                <div className='flex flex-row flex-wrap justify-evenly'>
                 <Link to="/Empresa">
                 
                 <button onClick={scrollToTop}>
