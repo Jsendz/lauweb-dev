@@ -3,11 +3,11 @@
 
 export const navLinks = [
   {
-    id: "Qui som?",
+    id: "about",
     title: "Quienes Somos?",
   },
   {
-    id: "Sobre And",
+    id: "Andorra",
     title: "Sobre Andorra",
   },
   
