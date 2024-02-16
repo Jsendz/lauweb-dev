@@ -1,38 +1,47 @@
-import React from 'react';
-import { immobiliaria, consergeria, residencia, empresa } from '../assets/index.js';
-import { Link } from 'react-router-dom';
-import {useTranslation} from "react-i18next";
-
-const Options = () => {
-
-    const [t] = useTranslation("global");
-
-  return (
-    <div className='fixed bottom-3 w-full mx-auto z-50'>
-          
-        <div className="rounded-lg backdrop-blur-sm flex flex-row justify-evenly lg:justify-around items-center p-5 h-full lg:w-full xl:max-w-5xl lg:max-w-3xl max-w-sm mx-auto ">
-    <div className="flex flex-row lg:justify-around w-full mb-5 ">
-    <div className=" shadow-2xl rounded-xl bg-white  hover:bg-slate-900 hover:cursor-pointer hover:text-white m-2 lg:m-0 lg:w-[35%]"><Link   to="/Empresa"  className="hover:cursor-pointer"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={empresa} alt="company" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.empresa")} </h3>
-    </div></Link>
-    </div>
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%] hover:cursor-pointer"><Link  to="/Residencia"   ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={residencia} alt="Residence" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.residencia")}</h3>
-    </div></Link></div>
-    </div>
+<div className='w-full fixed bottom-0 z-10  '>
+<div className='backdrop-blur-lg rounded-xl w-[100%] max-w-3xl md:mx-auto '>
+    <div className='flex flex-row flex-wrap justify-evenly'>
+    <Link to="/Empresa">
     
-    <div className="flex flex-row lg:justify-around w-full  mb-5 ">
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white  hover:bg-slate-900 hover:text-white hover:cursor-pointer m-2 lg:m-0 lg:w-[35%]"><Link  to="/Inmobiliaria"   ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={immobiliaria} alt="Real Estate" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.immo")}</h3>
-    </div></Link>
-    </div>
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%] hover:cursor-pointer"><Link  to="/Conserjeria" ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={consergeria} alt="Concierge" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.conser")}</h3>
-    </div></Link>
-       </div>
-    </div>
+    <button onClick={scrollToTop}>
+          <div className='  bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold mb-3'>
+          <MdOutlineBusinessCenter size={32} style={{ fill: 'darkcyan' }} />
+              <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.empresa")}</h2>
+          </div>
+          </button>
+    </Link>
+    <Link to="/Residencia">
     
+    <button onClick={scrollToTop}>
+          <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold mb-3'>
+          <SlDocs size={32}  style={{ fill: 'darkcyan' }}/>
+              <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.residencia")}</h2>
+          </div>
+          </button>
+    </Link>
+    <Link to="/Inmobiliaria">
+    
+    <button onClick={scrollToTop}>
+          <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold'>
+          <BsHouseLock size={32} style={{ fill: 'darkcyan' }}/>
+              <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.immo")}</h2>
+          </div>
+          </button>
+    </Link>
+    <Link to="/Conserjeria">
+    
+    <button onClick={scrollToTop}>
+          <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold'>
+          <GiHouseKeys size={32} style={{ fill: 'darkcyan' }} />
+              <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.conser")}</h2>
+          </div>
+          </button>
+    </Link>
+    </div>
+</div>
 </div>
 
-
-    </div>
-  )
-}
-
-export default Options
+import { BsHouseLock } from "react-icons/bs";
+import { SlDocs } from "react-icons/sl";
+import { MdOutlineBusinessCenter } from "react-icons/md";
+import { GiHouseKeys } from "react-icons/gi";
