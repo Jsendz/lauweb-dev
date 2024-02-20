@@ -10,6 +10,11 @@
 
     },
 
+    "options": {
+        "titulo":""
+
+    },
+
     "residencia":{
         "titulo": "Residencia en Andorra",
         "paragrafo":"En HILLTOP AGENCY, te acompañaremos en toda la tramitación de la residencia en Andorra que más se adapte a tus necesidades, facilitando en todo momento el proceso para que puedas disfrutarlo lo antes posible.",
